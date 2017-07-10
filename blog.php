@@ -26,7 +26,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-col l8 s12">
             <!-- Blog entry -->
             <div class="w3-card-4 w3-margin w3-white">
-                <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
+                <!--<img src=> -->
                 <div class="w3-container">
                     <h3><b>Json</b></h3>
                     <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
@@ -49,7 +49,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
             <!-- Blog entry -->
             <div class="w3-card-4 w3-margin w3-white">
-                <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+                <!--<img src=> -->
                 <div class="w3-container">
                     <h3><b>SASS</b></h3>
                     <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
@@ -75,7 +75,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-col l4">
             <!-- About Card -->
             <div class="w3-card-2 w3-margin w3-margin-top">
-                <img src="/w3images/avatar_g.jpg" style="width:100%">
+                <!--<img src=> -->
                 <div class="w3-container w3-white">
                     <h4><b>Alexandra</b></h4>
                     <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.<br></p>
@@ -95,17 +95,17 @@ and is wrapped around the whole page content, except for the footer in this exam
                         <span>Sed mattis nunc</span>
                     </li>
                     <li class="w3-padding-16">
-                        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                        <!--<img src=> -->
                         <span class="w3-large">Ipsum</span><br>
                         <span>Praes tinci sed</span>
                     </li>
                     <li class="w3-padding-16">
-                        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                        <!--<img src=> -->
                         <span class="w3-large">Dorum</span><br>
                         <span>Ultricies congue</span>
                     </li>
                     <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-                        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                        <!--<img src=> -->
                         <span class="w3-large">Mingsum</span><br>
                         <span>Lorem ipsum dipsum</span>
                     </li>
