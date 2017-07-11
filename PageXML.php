@@ -14,9 +14,6 @@
     <?php include "Header.php"; ?>
     <!-- Grid -->
     <div class="w3-row">
-
-        <!-- Blog entries -->
-        <div class="w3-col l8 s12">
             <!-- Blog entry -->
             <div class="w3-card-4 w3-margin w3-white">
                 <img src="img/desktop.png" alt="desktop" style="width:100%">
@@ -45,8 +42,10 @@
 </div><br>
 
 <!-- END w3-content -->
-</div>
-<?php include "Footer.php"; ?>
+
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+    <?php include "Footer.php"; ?>
+</footer>
 
 </body>
 </html>
