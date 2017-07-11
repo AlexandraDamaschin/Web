@@ -19,12 +19,12 @@
                 <img src="img/desktop.png" alt="desktop" style="width:100%">
                 <div class="w3-container">
                     <h3><b>XML</b></h3>
-                    <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
+                    <h5>XML stands for eXtensible Markup Language. <span class="w3-opacity">July 7, 2017</span></h5>
                 </div>
 
                 <div class="w3-container">
-                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-                        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <p>XML was designed to store and transport data.
+                        XML was designed to be both human- and machine-readable.</p>
 
                 </div>
             </div>

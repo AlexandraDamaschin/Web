@@ -35,7 +35,7 @@
                 <script>
                     var list =[{name:'HTML'}, {name:'XML'}, {name:'JSON'},{name:'CSS'},{ name:'jiji2'}];
                     var htmlStart =
-                                                     ' <div class="w3-card-4 w3-margin w3-white">'+
+                        ' <div class="w3-card-4 w3-margin w3-white">'+
                         ' <img src="img/desktop.png" alt="desktop" style="width:100%">  <div class="w3-container">';
                     console.log('aaaaaaaaaaaaaa');
                     for (var i=0;i<list.length;i++)
@@ -44,7 +44,6 @@
                         $(".we-ul").append(html);
                         console.log('fghjkhubgfvcdxb');
                     }
-
                 </script>
                 <!-- json  End -->
               </div>
