@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blog>
+    <page>
+        <title>Titlul cel scurt</title>
+        <date>Data de ieri</date>
+        <content>Continut important</content>
+    </page>
+    <page>
+        <title>Titlul cel scurt</title>
+        <date>Data de ieri</date>
+        <content>Continut important</content>
+    </page>
+    <page>
+        <title>Titlul cel scurt</title>
+        <date>Data de ieri</date>
+        <content>Continut important</content>
+    </page>
+    <page>
+        <title>Titlul cel scurt</title>
+        <date>Data de ieri</date>
+        <content>Continut important</content>
+    </page>
+
+
+</blog>
