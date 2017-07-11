@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="w3-container">
-                    <p>XML was designed to store and transport data.
+                    <p>XML was designed to store and transport data.<br>
                         XML was designed to be both human- and machine-readable.</p>
 
                 </div>
