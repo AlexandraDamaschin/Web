@@ -12,13 +12,17 @@
 <div class="w3-content" >
 
     <!-- Header -->
-    <?php include "Header.php"; ?>
+    <header class="w3-container w3-center w3-padding-32">
+    <h1><a href="blog.html"><b class="space">MY BLOG</b></a></h1>
+
+    <p class="typing">Welcome to the blog of <span class="w3-tag">Alexandra Damaschin & Catalina Avram</span></p>
+    </header>
 
     <!-- Grid -->
     <div class="w3-row">
             <!-- Blog entry -->
             <div class="w3-card-4 w3-margin w3-white">
-                <img src="img/desktop.png" alt="desktop" style="width:100%">
+                <img src="img/sass.png" alt="classsass" style="width:100%">
                 <div class="w3-container">
                     <h3><b>SASS</b></h3>
                     <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
@@ -45,7 +49,8 @@
 
 <!-- END w3-content -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-    <?php include "Footer.php"; ?>
+    <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="PageCSS.html">Previous</a></button>
+    <p>&copy; 2017 by Alexandra Damaschin & Catalina Avram</p>
 </footer>
 
 </body>

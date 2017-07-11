@@ -11,7 +11,12 @@
 
 <div class="w3-content" >
 
-    <?php include "Header.php"; ?>
+    <header class="w3-container w3-center w3-padding-32">
+    <h1><a href="blog.html"><b class="space">MY BLOG</b></a></h1>
+
+    <p class="typing">Welcome to the blog of <span class="w3-tag">Alexandra Damaschin & Catalina Avram</span></p>
+    </header>
+    
     <!-- Grid -->
     <div class="w3-row">
             <!-- Blog entry -->
@@ -19,12 +24,12 @@
                 <img src="img/desktop.png" alt="desktop" style="width:100%">
                 <div class="w3-container">
                     <h3><b>XML</b></h3>
-                    <h5>XML stands for eXtensible Markup Language. <span class="w3-opacity">July 7, 2017</span></h5>
+                    <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
                 </div>
 
                 <div class="w3-container">
-                    <p>XML was designed to store and transport data.<br>
-                        XML was designed to be both human- and machine-readable.</p>
+                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+                        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
 
                 </div>
             </div>
@@ -44,7 +49,9 @@
 <!-- END w3-content -->
 
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-    <?php include "Footer.php"; ?>
+    <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="PageHTML.html">Previous</a></button>
+    <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="PageJSON.html">Next »</a></button>
+    <p>&copy; 2017 by Alexandra Damaschin & Catalina Avram</p>
 </footer>
 
 </body>

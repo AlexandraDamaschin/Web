@@ -12,7 +12,11 @@
 <div class="w3-content" >
 
     <!-- Header -->
-    <?php include "Header.php"; ?>
+    <header class="w3-container w3-center w3-padding-32">
+    <h1><a href="blog.html"><b class="space">MY BLOG</b></a></h1>
+
+    <p class="typing">Welcome to the blog of <span class="w3-tag">Alexandra Damaschin & Catalina Avram</span></p>
+    </header>
 
     <!-- Grid -->
     <div class="w3-row">
@@ -46,7 +50,9 @@
 <!-- END w3-content -->
 
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-    <?php include "Footer.php"; ?>
+    <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="PageXML.html">Previous</a></button>
+    <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="PageCSS.html">Next »</a></button>
+    <p>&copy; 2017 by Alexandra Damaschin & Catalina Avram</p>
 </footer>
 </body>
 </html>
