@@ -3,6 +3,11 @@
     font-family: "Raleway", sans-serif;
     style : "max-width:1400px"
 }
+.space{
+    letter-spacing: 0.5em;
+    font-size: 2.5em;
+    padding-top: 0.05em;
+}
 .typing {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -24,7 +29,4 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
-}
-.margine {
-    margin-left: 65px;
 }
