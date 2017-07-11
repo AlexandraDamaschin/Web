@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body class="w3-light-grey">
@@ -34,9 +35,8 @@
                 <script>
                     var list =[{name:'HTML'}, {name:'XML'}, {name:'JSON'},{name:'CSS'},{ name:'jiji2'}];
                     var htmlStart =
-                        ' <div class="w3-card-4 w3-margin w3-white">'+
+                                                     ' <div class="w3-card-4 w3-margin w3-white">'+
                         ' <img src="img/desktop.png" alt="desktop" style="width:100%">  <div class="w3-container">';
-//                    var htmlEnd= '<span>Sed mattis nunc</span></li>';
                     console.log('aaaaaaaaaaaaaa');
                     for (var i=0;i<list.length;i++)
                     {
@@ -48,6 +48,7 @@
                 </script>
                 <!-- json  End -->
               </div>
+
                 <div class="w3-container">
                     <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
                         tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
