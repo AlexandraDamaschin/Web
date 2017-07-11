@@ -55,9 +55,9 @@
                         <div class="w3-col m8 s12">
                             <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageHTML.php"><b>READ MORE »</b></a></button></p>
                         </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
-                        </div>
+<!--                        <div class="w3-col m4 w3-hide-small">-->
+<!--                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -78,9 +78,9 @@
                         <div class="w3-col m8 s12">
                             <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageXML.php"><b>READ MORE »</b></a></button></p>
                         </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-                        </div>
+<!--                        <div class="w3-col m4 w3-hide-small">-->
+<!--                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -101,9 +101,9 @@
                         <div class="w3-col m8 s12">
                             <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageJSON.php"><b>READ MORE »</b></a></button></p>
                         </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-                        </div>
+<!--                        <div class="w3-col m4 w3-hide-small">-->
+<!--                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -124,9 +124,9 @@
                         <div class="w3-col m8 s12">
                             <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageSASS.php"><b>READ MORE »</b></a></button></p>
                         </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-                        </div>
+<!--                        <div class="w3-col m4 w3-hide-small">-->
+<!--                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -147,9 +147,9 @@
                         <div class="w3-col m8 s12">
                             <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageCSS.php"><b>READ MORE »</b></a></button></p>
                         </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-                        </div>
+<!--                        <div class="w3-col m4 w3-hide-small">-->
+<!--                            <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
