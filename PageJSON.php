@@ -12,9 +12,7 @@
 <div class="w3-content" >
 
     <!-- Header -->
-    <header class="w3-container w3-center w3-padding-32">
-        <h1><b>MY BLOG</b></h1>
-    </header>
+    <?php include "Header.php"; ?>
 
     <!-- Grid -->
     <div class="w3-row">
@@ -25,7 +23,7 @@
             <div class="w3-card-4 w3-margin w3-white">
                 <img src="img/desktop.png" alt="desktop" style="width:100%">
                 <div class="w3-container">
-                    <h3><b>HTML</b></h3>
+                    <h3><b>JSON</b></h3>
                     <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
                 </div>
 
@@ -50,10 +48,7 @@
 
 <!-- END w3-content -->
 </div>
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-    <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-    <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
-    <p>&copy; 2017 by Alexandra Damaschin & Catalina Avram</p>
-</footer>
+<?php include "Footer.php"; ?>
+
 </body>
 </html>
