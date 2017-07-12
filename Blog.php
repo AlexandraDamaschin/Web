@@ -64,12 +64,12 @@
                     <div class="w3-row">
                         <div class="w3-col m8 s12">
                             <p>
-                                <button class="w3-button w3-padding-large w3-white w3-border"><a href="PageXML.html"><b>READ
+                                <button class="w3-button w3-padding-large w3-white w3-border"><a href="PageXML.php"><b>READ
                                             MORE »</b></a></button>
                             </p>
                         </div>
                         <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><a href="PageXML.html"><b>Comments</b></a> <span
+                            <p><span class="w3-padding-large w3-right"><a href="PageXML.php"><b>Comments</b></a> <span
                                             class="w3-badge">2</span></span></p>
                         </div>
                     </div>
