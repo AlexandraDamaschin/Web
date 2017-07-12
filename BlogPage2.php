@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <body class="w3-light-grey">
 
@@ -23,6 +24,7 @@
             <!-- ENTRIES IN XML  -->
             <div class="w3-col l8 s12 blog-entries">
                 <!-- Blog entry -->
+
                 <?php
                 ob_start();
                 include('BlogEntry.php');
@@ -33,13 +35,14 @@
                 $blogData = ob_get_clean();
                 ?>
                 <script>
+                    console.log("asxdfgvb");
                     var xml = <?php echo json_encode($blogData);?>;
                     var template = <?php echo(json_encode($blogTemplateEntry));?>;
                     var parser = new DOMParser();
                     var xmlDoc = parser.parseFromString(xml, "text/xml");
 
                     var pages = xmlDoc.getElementsByTagName("page");
-                    for (var i = 0; i < 5; i++) {
+                    for (var i = 2; i < 5; i++) {
                         var html = template;
                         var page = pages[i];
                         html = html.replace('{$title}', page.getElementsByTagName("title")[0].childNodes[0].nodeValue);
