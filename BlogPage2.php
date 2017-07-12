@@ -13,9 +13,7 @@
 
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-32">
-    <h1><a href="blog.html"><b class="space">MY BLOG</b></a></h1>
-
-    <p class="typing">Welcome to the blog of <span class="w3-tag">Alexandra Damaschin & Catalina Avram</span></p>
+        <?php include "Header.php"; ?>
     </header>
 
     <!-- Grid -->
@@ -36,10 +34,10 @@
                         tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
                     <div class="w3-row">
                         <div class="w3-col m8 s12">
-                            <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageJSON.html"><b>READ MORE »</b></a></button></p>
+                            <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageJSON.php"><b>READ MORE »</b></a></button></p>
                         </div>
                         <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><a href="PageJSON.html"><b>Comments</b></a> <span class="w3-tag">0</span></span></p>
+                            <p><span class="w3-padding-large w3-right"><a href="PageJSON.php"><b>Comments</b></a> <span class="w3-tag">0</span></span></p>
                         </div>
                     </div>
                 </div>
@@ -59,10 +57,10 @@
                         tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
                     <div class="w3-row">
                         <div class="w3-col m8 s12">
-                            <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageCSS.html"><b>READ MORE »</b></a></button></p>
+                            <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageCSS.php"><b>READ MORE »</b></a></button></p>
                         </div>
                         <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><a href="PageCSS.html"><b>Comments</b> </a><span class="w3-badge">2</span></span></p>
+                            <p><span class="w3-padding-large w3-right"><a href="PageCSS.php"><b>Comments</b> </a><span class="w3-badge">2</span></span></p>
                         </div>
                     </div>
                 </div>
@@ -81,10 +79,10 @@
                         tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
                     <div class="w3-row">
                         <div class="w3-col m8 s12">
-                            <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageSASS.html"><b>READ MORE »</b></a></button></p>
+                            <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="PageSASS.php"><b>READ MORE »</b></a></button></p>
                         </div>
                         <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><a href="PageSASS.html"><b>Comments</b> </a><span class="w3-badge">2</span></span></p>
+                            <p><span class="w3-padding-large w3-right"><a href="PageSASS.php"><b>Comments</b> </a><span class="w3-badge">2</span></span></p>
                         </div>
                     </div>
                 </div>
@@ -117,24 +115,24 @@
                     <li class="w3-padding-16">
                         
                         <img src="img/desktop-petite.png" alt="desktop" class="w3-left w3-margin-right" style="width:50px">
-                        <span class="w3-large"><a href="PageHTML.html">HTML</a></span><br>
+                        <span class="w3-large"><a href="PageHTML.php">HTML</a></span><br>
                         <span>Sed mattis nunc</span>
                         
                     </li>
                         
                     <li class="w3-padding-16">
                         <img src="img/xml-petite.jpg" alt="Xml" class="w3-left w3-margin-right" style="width:50px">
-                        <span class="w3-large"><a href="PageXML.html">Xml</a></span><br>
+                        <span class="w3-large"><a href="PageXML.php">Xml</a></span><br>
                         <span>Praes tinci sed</span>
                     </li>
                     <li class="w3-padding-16">
                         <img src="img/json-petite.png" alt="JSON" class="w3-left w3-margin-right" style="width:50px">
-                        <span class="w3-large"><a href="PageJSON.html">JSON</a></span><br>
+                        <span class="w3-large"><a href="PageJSON.php">JSON</a></span><br>
                         <span>Ultricies congue</span>
                     </li>
                     <li class="w3-padding-16 w3-hide-medium w3-hide-small">
                         <img src="img/blue-petite.jpg" alt="css" class="w3-left w3-margin-right" style="width:50px">
-                        <span class="w3-large"><a href="PageCSS.html">CSS</a></span><br>
+                        <span class="w3-large"><a href="PageCSS.php">CSS</a></span><br>
                         <span>Lorem ipsum dipsum</span>
                     </li>
                 </ul>
@@ -147,11 +145,11 @@
                     <h4>Tags</h4>
                 </div>
                 <div class="w3-container w3-white">
-                    <p><span class="w3-tag w3-light-grey w3-margin-bottom "><a href="PageHTML.html">HTML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">footer</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">Web</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">link</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">tag</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageJSON.html">JSON</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageXML.html">XML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">img</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">HTTP</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">header</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageCSS.html">css</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">body</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageSASS.html">SASS</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">www</a></span>
+                    <p><span class="w3-tag w3-light-grey w3-margin-bottom "><a href="PageHTML.php">HTML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">footer</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">Web</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">link</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">tag</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageJSON.html">JSON</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageXML.php">XML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">img</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">HTTP</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">header</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageCSS.html">css</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">body</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageSASS.php">SASS</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">www</a></span>
                     </p>
                 </div>
             </div>
@@ -165,8 +163,7 @@
     <!-- END w3-content -->
 </div>
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-    <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="Blog.html">Previous</a></button>
-    <p>&copy; 2017 by Alexandra Damaschin & Catalina Avram</p>
+    <?php include "Footer.php"; ?>
 </footer>
 </body>
 </html>
