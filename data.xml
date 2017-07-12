@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blog>
-    <page>
-        <title>Titlul cel scurt</title>
-        <date>Data de ieri</date>
+    <!-- first page-->
+    <page> <!--HTML -->
+        <title>HTML</title>
+        <date> July 3, 2017</date>
         <content>Continut important</content>
     </page>
-    <page>
-        <title>Titlul cel scurt</title>
-        <date>Data de ieri</date>
+
+    <page>  <!--XML -->
+        <title>XML</title>
+        <date>July 5, 2017</date>
         <content>Continut important</content>
     </page>
-    <page>
-        <title>Titlul cel scurt</title>
-        <date>Data de ieri</date>
+
+    <!-- second page-->
+    <page>  <!--JSON -->
+        <title>JSON</title>
+        <date>July 10, 2017</date>
         <content>Continut important</content>
     </page>
-    <page>
-        <title>Titlul cel scurt</title>
-        <date>Data de ieri</date>
+
+    <page>  <!--CSS -->
+        <title>CSS</title>
+        <date>July 15, 2017</date>
+        <content>Continut important</content>
+    </page>
+
+    <page>  <!--SASS -->
+        <title>SASS</title>
+        <date>July 20, 2017</date>
         <content>Continut important</content>
     </page>
 
