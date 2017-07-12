@@ -6,6 +6,7 @@
         <date> July 3, 2017</date>
         <description> Descrierea proiectului </description>
         <href>PageHTML.php</href>
+        <img>image Large </img>
         <content>Continut important</content>
         <comments>comentarii</comments>
     </page>
@@ -15,6 +16,7 @@
         <date>July 5, 2017</date>
         <description> Descrierea proiectului </description>
         <href>PageXML.php</href>
+        <img>image Large </img>
         <content>Continut important</content>
         <comments>comentarii</comments>
     </page>
@@ -25,6 +27,7 @@
         <date>July 10, 2017</date>
         <description> Descrierea proiectului </description>
         <href>PageJSON.php</href>
+        <img>image Large </img>
         <content>Continut important</content>
         <comments>comentarii</comments>
     </page>
@@ -34,6 +37,7 @@
         <date>July 15, 2017</date>
         <description> Descrierea proiectului </description>
         <href>PageCSS.php</href>
+        <img>image Large </img>
         <content>Continut important</content>
         <comments>comentarii</comments>
     </page>
@@ -43,6 +47,7 @@
         <date>July 20, 2017</date>
         <description> Descrierea proiectului </description>
         <href>PageSASS.php</href>
+        <img>image Large </img>
         <content>Continut important</content>
         <comments>comentarii</comments>
     </page>
