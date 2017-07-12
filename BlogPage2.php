@@ -145,11 +145,11 @@
                     <h4>Tags</h4>
                 </div>
                 <div class="w3-container w3-white">
-                    <p><span class="w3-tag w3-light-grey w3-margin-bottom "><a href="PageHTML.php">HTML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">footer</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">Web</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">link</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">tag</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageJSON.html">JSON</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageXML.php">XML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">img</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">HTTP</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">header</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageCSS.html">css</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">body</a></span>
-                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageSASS.php">SASS</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.html">www</a></span>
+                    <p><span class="w3-tag w3-light-grey w3-margin-bottom "><a href="PageHTML.php">HTML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">footer</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">Web</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageJson.php">link</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageJSON.php.">tag</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageJSON.php">JSON</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageSASS.php">XML</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageSASS.php">img</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageSASS.php">SASS</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">header</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageCSS.php">css</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">body</a></span>
+                        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageSASS.php">SASS</a></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">www</a></span>
                     </p>
                 </div>
             </div>
