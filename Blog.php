@@ -38,45 +38,49 @@
                 var xmlDoc = parser.parseFromString(xml, "text/xml");
 
                 var pages = xmlDoc.getElementsByTagName("page");
-                for (var i = 0; i < pages.length; i++) {
+                for (var i = 0; i < 2; i++) {
                     var html = template;
                     var page = pages[i];
                     html = html.replace('{$title}', page.getElementsByTagName("title")[0].childNodes[0].nodeValue);
                     html = html.replace('{$date}',  page.getElementsByTagName("date")[0].childNodes[0].nodeValue);
+                    html = html.replace('{$description}',  page.getElementsByTagName("description")[0].childNodes[0].nodeValue);
+                    html = html.replace('{$content}',  page.getElementsByTagName("content")[0].childNodes[0].nodeValue);
+                    html = html.replace('{$comments}',  page.getElementsByTagName("comments")[0].childNodes[0].nodeValue);
+                    html = html.replace('{$href}',  page.getElementsByTagName("href")[0].childNodes[0].nodeValue);
                     $(".blog-entries").append(html);
                 }
             </script>
-
-            <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <img src="img/xml.jpg" alt="Xml" style="width:100%">
-                <div class="w3-container">
-                    <h3><b>XML</b></h3>
-                    <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
-                </div>
-
-                <div class="w3-container">
-                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem
-                        euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
-                        ultricies mi non congue ullam corper. Praesent tincidunt sed
-                        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
-                        non fringilla.</p>
-                    <div class="w3-row">
-                        <div class="w3-col m8 s12">
-                            <p>
-                                <button class="w3-button w3-padding-large w3-white w3-border"><a href="PageXML.php"><b>READ
-                                            MORE »</b></a></button>
-                            </p>
-                        </div>
-                        <div class="w3-col m4 w3-hide-small">
-                            <p><span class="w3-padding-large w3-right"><a href="PageXML.php"><b>Comments</b></a> <span
-                                            class="w3-badge">2</span></span></p>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
+                    <!--This should be commented -->
+            <!--Blog entry -->
+<!--            <div class="w3-card-4 w3-margin w3-white">-->
+<!--                <img src="img/xml.jpg" alt="Xml" style="width:100%">-->
+<!--                <div class="w3-container">-->
+<!--                    <h3><b>XML</b></h3>-->
+<!--                    <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="w3-container">-->
+<!--                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem-->
+<!--                        euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed-->
+<!--                        ultricies mi non congue ullam corper. Praesent tincidunt sed-->
+<!--                        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam-->
+<!--                        non fringilla.</p>-->
+<!--                    <div class="w3-row">-->
+<!--                        <div class="w3-col m8 s12">-->
+<!--                            <p>-->
+<!--                                <button class="w3-button w3-padding-large w3-white w3-border"><a href="PageXML.php"><b>READ-->
+<!--                                            MORE »</b></a></button>-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                        <div class="w3-col m4 w3-hide-small">-->
+<!--                            <p><span class="w3-padding-large w3-right"><a href="PageXML.php"><b>Comments</b></a> <span-->
+<!--                                            class="w3-badge">2</span></span></p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!---->
+<!---->
+<!--                </div>-->
+<!--            </div>-->
             <!-- END BLOG ENTRIES -->
         </div>
 
@@ -133,17 +137,14 @@
                 <script>
                     var list =
                         [{name: 'HTML', href: 'PageHTML.php'},
-                            {name: 'XML', href: 'PageXML.php'},
-                            {name: 'JSON', href: 'PageJSON.php'},
-                            {name: 'CSS', href: 'PageCSS.php'},
-                            {name: 'SASS', href: 'PageSASS.php'}];
+                            {name: 'XML', href: 'PageXML.php'},];
                     var template = '<li class="w3-padding-16 w3-hide-medium w3-hide-small">' +
                         ' <img src="img/blue-petite.jpg" alt="css" class="w3-left w3-margin-right" style="width:50px">' +
                         ' <span class="w3-large"><a href="{$href}">{$name}</a></span><br>' +
                         '<span>{$text}</span>' +
                         ' </li>';
 
-                    for (var i = 0; i < list.length; i++) {
+                    for (var i = 0; i <2; i++) {
                         var html = template;
                         var entry = list[i];
                         html = html.replace('{$name}', entry.name);
