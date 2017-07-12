@@ -171,7 +171,9 @@
                 <!-- JSON -->
                 <script>
                     var list =
-                        [   {name: 'JSON', href: 'PageJSON.php'},
+                        [   {name: 'HTML', href: 'PageHTML.php'},
+                            {name: 'XML', href: 'PageXML.php'},
+                            {name: 'JSON', href: 'PageJSON.php'},
                             {name: 'CSS', href: 'PageCSS.php'},
                             {name: 'SASS', href: 'PageSASS.php'}];
                     var template = '<li class="w3-padding-16 w3-hide-medium w3-hide-small">' +
@@ -180,7 +182,7 @@
                         '<span>{$text}</span>' +
                         ' </li>';
 
-                    for (var i = 0; i <3; i++) {
+                    for (var i = 0; i <5; i++) {
                         var html = template;
                         var entry = list[i];
                         html = html.replace('{$name}', entry.name);

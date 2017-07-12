@@ -137,14 +137,17 @@
                 <script>
                     var list =
                         [{name: 'HTML', href: 'PageHTML.php'},
-                            {name: 'XML', href: 'PageXML.php'},];
+                            {name: 'XML', href: 'PageXML.php'},
+                            {name: 'JSON', href: 'PageJSON.php'},
+                            {name: 'CSS', href: 'PageCSS.php'},
+                            {name: 'SASS', href: 'PageSASS.php'}];
                     var template = '<li class="w3-padding-16 w3-hide-medium w3-hide-small">' +
                         ' <img src="img/blue-petite.jpg" alt="css" class="w3-left w3-margin-right" style="width:50px">' +
                         ' <span class="w3-large"><a href="{$href}">{$name}</a></span><br>' +
                         '<span>{$text}</span>' +
                         ' </li>';
 
-                    for (var i = 0; i <2; i++) {
+                    for (var i = 0; i <5; i++) {
                         var html = template;
                         var entry = list[i];
                         html = html.replace('{$name}', entry.name);
