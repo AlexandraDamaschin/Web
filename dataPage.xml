@@ -2,12 +2,8 @@
 <pages>
     <page>
         <!-- HTML -->
-        <imgSrc>img/htmlLarge.png</imgSrc>
+        <imgSrc>/Practica/img/htmlLarge.png</imgSrc>
         <imgAlt>htmlLarge</imgAlt>
-        <!--<image>-->
-            <!--<src>'img/htmlLarge'</src>-->
-            <!--<alt>htmlLargeImage</alt>-->
-        <!--</image>-->
         <title>HTML</title>
         <stands>Hyper Text Markup Language</stands>
         <date>July 3, 2017</date>
@@ -17,10 +13,8 @@
 
     <page>
         <!-- XML -->
-        <image>
-            <src>'img/xmlLarge'</src>
-            <alt>xmlLargeImage</alt>
-        </image>
+        <imgSrc>/Practica/img/xmlLarge.jpg</imgSrc>
+        <imgAlt>xmlLargeImage</imgAlt>
         <title>XML</title>
         <stands>eXtensible Markup Language</stands>
         <date>July 3, 2017</date>
@@ -31,7 +25,7 @@
 
     <page>
         <!-- JSON -->
-        <imgSrc>img/jsonLarge</imgSrc>
+        <imgSrc>/Practica/img/jsonLarge.png</imgSrc>
         <imgAlt>jsonLargeImage</imgAlt>
         <title>JSON</title>
         <stands>JavaScript Object Notation</stands>
@@ -43,10 +37,8 @@
 
     <page>
         <!-- CSS -->
-        <image>
-            <src>'img/cssLarge'</src>
-            <alt>htmlLargeImage</alt>
-        </image>
+        <imgSrc>/Practica/img/cssLarge.jpg</imgSrc>
+        <imgAlt>cssLargeImage</imgAlt>
         <title>CSS</title>
         <stands> Cascading Style Sheets</stands>
         <date>July 3, 2017</date>
@@ -57,10 +49,8 @@
 
     <page>
         <!-- SASS -->
-        <image>
-            <src>'img/sassLarge'</src>
-            <alt>sassLargeIamge</alt>
-        </image>
+        <imgSrc>/Practica/img/sassLarge.png</imgSrc>
+        <imgAlt>sassLargeImage</imgAlt>
         <title>SASS</title>
         <stands>Syntactically Awesome StyleSheets</stands>
         <date>July 3, 2017</date>

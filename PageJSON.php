@@ -18,27 +18,43 @@
 
     <!-- Grid -->
     <div class="w3-row">
+        <div class="w3-card-4 w3-margin w3-white blog-entries pages-entries">
             <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <img src="img/desktop.png" alt="desktop" style="width:100%">
-                <div class="w3-container">
-                    <h3><b>JSON</b></h3>
-                    <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
-                </div>
+            <?php
+            ob_start();
+            include('PageEntry.php');
+            $pageTemplateEntry = ob_get_clean();
 
-                <div class="w3-container">
-                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-                        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            ob_start();
+            include('dataPage.xml');
+            $pageData = ob_get_clean();
+            ?>
+            <script>
+                $(function () {
+                    var xml = <?php echo json_encode($pageData);?>;
+                    var template = <?php echo(json_encode($pageTemplateEntry));?>;
+                    var parser = new DOMParser();
+                    var xmlDoc = parser.parseFromString(xml, "text/xml");
 
-                </div>
-            </div>
-            <hr>
+                    var pages = xmlDoc.getElementsByTagName("page");
+                    for (var i = 2; i < 3; i++) {
+                        var html = template;
+                        var page = pages[i];
+                        html = html.replace('{$imgSrc}', page.getElementsByTagName("imgSrc")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$imgAlt}', page.getElementsByTagName("imgAlt")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$title}', page.getElementsByTagName("title")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$stands}', page.getElementsByTagName("stands")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$description}', page.getElementsByTagName("description")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$date}', page.getElementsByTagName("date")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$text}', page.getElementsByTagName("text")[0].childNodes[0].nodeValue);
+                        $(".pages-entries").append(html);
+                    }
 
+                });
+            </script>
 
             <!-- END BLOG ENTRIES -->
         </div>
-
-
         <!-- END Introduction Menu -->
     </div>
 
