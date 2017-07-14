@@ -204,8 +204,27 @@
 
     <!-- END w3-content -->
 </div>
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-    <?php include "Footer.php"; ?>
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top w3-footer-buttom">
+    <script>
+        var list =
+            [{ hrefPrev:'Blog.php', prev:'Previous', hrefNext:'BlogPage2.php', next:'Next'}];
+        var template =
+            '<button class="w3-button w3-black w3-padding-large w3-margin-bottom">' +
+            '<a href="{$hrefPrev}"<b>{$prev}</b></a></button>'
+            +'<button class="w3-button w3-black w3-padding-large w3-margin-bottom">' +
+            '<a href="{$hrefNext}"<b>{$next}</b></a></button>'
+             +'<p>&copy; 2017 by Alexandra Damaschin & Catalina Avram</p>';
+        for (var i = 0; i <1; i++) {
+            var html = template;
+            var entry = list[i];
+            html = html.replace('{$hrefPrev}', entry.hrefPrev);
+            html = html.replace('{$prev}', entry.prev);
+            html = html.replace('{$hrefNext}', entry.hrefNext);
+            html = html.replace('{$next}', entry.next);
+            $(".w3-footer-buttom").append(html);
+        }
+    </script>
 </footer>
+
 </body>
 </html>

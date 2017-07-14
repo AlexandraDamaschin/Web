@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<footer>
+    <!--HTML-->
+    <page>
+    <prev>Previous</prev>
+    <hrefPrev>/Practica/Blog.php</hrefPrev>
+    <next>Next</next>
+    <hrefNext>/Practica/PageXML.php</hrefNext>
+    </page>
+
+    <!--XML-->
+    <page>
+        <prev>Previous</prev>
+        <hrefPrev>/Practica/PageHTML.php</hrefPrev>
+        <next>Next</next>
+        <hrefNext>/Practica/PageJSON.php</hrefNext>
+    </page>
+
+    <!--JSON-->
+    <page>
+        <prev>Previous</prev>
+        <hrefPrev>/Practica/PageJSON.php</hrefPrev>
+        <next>Next</next>
+        <hrefNext>/Practica/PageCSS.php</hrefNext>
+    </page>
+
+    <!--CSS-->
+    <page>
+        <prev>Previous</prev>
+        <hrefPrev>/Practica/PageCSS.php</hrefPrev>
+        <next>Next</next>
+        <hrefNext>/Practica/PageSASS.php</hrefNext>
+    </page>
+
+    <!--SASS-->
+    <page>
+        <prev>Previous</prev>
+        <hrefPrev>/Practica/PageSASS.php</hrefPrev>
+        <next>Next</next>
+        <hrefNext>/Practica/PageHTML.php</hrefNext>
+    </page>
+</footer>

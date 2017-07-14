@@ -64,8 +64,34 @@
 <!--<!-- END w3-content -->
 <!--</div>-->
 </div>
-    <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-        <?php include "Footer.php"; ?>
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top footer-entries">
+    <?php
+    ob_start();
+    include('FooterEntry.php');
+    $footerTemplateEntry = ob_get_clean();
+
+    ob_start();
+    include('dataFooter.xml');
+    $footerData = ob_get_clean();
+    ?>
+
+    <script>
+        var xml = <?php echo json_encode($footerData);?>;
+        var template = <?php echo(json_encode($footerTemplateEntry));?>;
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(xml, "text/xml");
+
+        var pages = xmlDoc.getElementsByTagName("page");
+        for (var i =3; i < 4; i++) {
+            var html = template;
+            var page = pages[i];
+            html = html.replace('{$hrefPrev}', page.getElementsByTagName("hrefPrev")[0].childNodes[0].nodeValue);
+            html = html.replace('{$prev}',  page.getElementsByTagName("prev")[0].childNodes[0].nodeValue);
+            html = html.replace('{$hrefNext}',  page.getElementsByTagName("hrefNext")[0].childNodes[0].nodeValue);
+            html = html.replace('{$next}',  page.getElementsByTagName("next")[0].childNodes[0].nodeValue);
+            $(".footer-entries").append(html);
+        }
+    </script>
 </footer>
 </body>
 </html>
