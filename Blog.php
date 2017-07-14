@@ -89,7 +89,7 @@
         <div class="w3-col l4">
             <!-- About us -->
             <div class="w3-card-2 w3-margin w3-margin-top">
-                <img src="img/head.jpg" alt="body" style="width:100%">
+                <img src="../Practica/img/head.jpg" alt="abous us " style="width:100%">
                 <div class="w3-container w3-padding">
                     <h4>About Authors</h4>
                 </div>
