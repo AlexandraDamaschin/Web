@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="web_page.xsl"?>-->
 <blog>
     <!-- first page-->
     <page> <!--HTML -->
         <title>HTML</title>
-        <date> July 3, 2017</date>
-        <description> Descrierea proiectului </description>
-        <href>PageHTML.php</href>
-        <img>image Large </img>
+        <date>July 3, 2017</date>
+        <description>Descrierea proiectului</description>
+        <href>/Practica/PageHTML.php</href>
+        <link>READ MORE »</link>
+        <imgSrc>/Practica/img/htmlLarge.png</imgSrc>
+        <imgAlt>htmlLargeImage</imgAlt>
         <content>Continut important</content>
         <comments>comentarii</comments>
+        <commentsNo>nr de comentarii</commentsNo>
     </page>
-
-    <page>  <!--XML -->
+        <!--XML -->
+    <page>
         <title>XML</title>
         <date>July 5, 2017</date>
-        <description> Descrierea proiectului </description>
-        <href>PageXML.php</href>
-        <img>image Large </img>
+        <description>Descrierea proiectului</description>
+        <href>/Practica/PageXML.php</href>
+        <link>READ MORE »</link>
+        <imgSrc>/Practica/img/xmlLarge.jpg</imgSrc>
+        <imgAlt>xmlLargeImage</imgAlt>
         <content>Continut important</content>
         <comments>comentarii</comments>
+        <commentsNo>nr de comentarii</commentsNo>
     </page>
 
     <!-- second page-->
@@ -26,31 +33,39 @@
         <title>JSON</title>
         <date>July 10, 2017</date>
         <description> Descrierea proiectului </description>
-        <href>PageJSON.php</href>
-        <img>image Large </img>
+        <href>/Practica/PageJSON.php</href>
+        <link>READ MORE »</link>
+        <imgSrc>/Practica/img/jsonLarge.png</imgSrc>
+        <imgAlt>jsonLargeImage</imgAlt>
         <content>Continut important</content>
         <comments>comentarii</comments>
+        <commentsNo>nr de comentarii</commentsNo>
     </page>
 
     <page>  <!--CSS -->
         <title>CSS</title>
         <date>July 15, 2017</date>
         <description> Descrierea proiectului </description>
-        <href>PageCSS.php</href>
-        <img>image Large </img>
+        <href>/Practica/PageCSS.php</href>
+        <link>READ MORE »</link>
+        <imgSrc>/Practica/img/cssLarge.jpg</imgSrc>
+        <imgAlt>cssLargeImage</imgAlt>
         <content>Continut important</content>
         <comments>comentarii</comments>
+        <commentsNo>nr de comentarii</commentsNo>
     </page>
 
     <page>  <!--SASS -->
         <title>SASS</title>
         <date>July 20, 2017</date>
         <description> Descrierea proiectului </description>
-        <href>PageSASS.php</href>
-        <img>image Large </img>
+        <href>/Practica/PageSASS.php</href>
+        <link>READ MORE »</link>
+        <imgSrc>/Practica/img/sassLarge.png</imgSrc>
+        <imgAlt>sassLargeImage</imgAlt>
         <content>Continut important</content>
         <comments>comentarii</comments>
+        <commentsNo>nr de comentarii</commentsNo>
     </page>
-
 
 </blog>

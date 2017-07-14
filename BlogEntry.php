@@ -1,5 +1,5 @@
-<div class="w3-card-4 w3-margin w3-white">
-    <img src="img/desktop.png" alt="desktop" style="width:100%">
+<div class="w3-card-4 w3-margin w3-white" xmlns:href="http://www.w3.org/1999/xhtml" xmlns:img="">
+   <img src="{$imgSrc}" alt="{$imgAlt}" />   <!-- style="width:100%"-->
     <div class="w3-container">
         <h3><b>{$title}</b></h3>
         <h5>{$description}, <span class="w3-opacity">{$date}</span></h5>
@@ -10,13 +10,14 @@
         <div class="w3-row">
             <div class="w3-col m8 s12">
                 <p>
-                    <button class="w3-button w3-padding-large w3-white w3-border"><a
-                            href=[$href]><b>READ MORE »</b></a></button>
+                    <button class="w3-button w3-padding-large w3-white w3-border">
+                        <a href="{$href}"><b>{$link}</b></a></button>
                 </p>
             </div>
             <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"><a[$href]><b>[$comments]</b> </a><span
-                            class="w3-tag">0</span></span></p>
+<!--                here homepage should be a link going to comments from the original page-->
+                <p><span class="w3-padding-large w3-right"<a href="{$href}"><b>{$comments}</b></a><span
+                            class="w3-tag">{$commentsNo}</span></span></p>
             </div>
         </div>
     </div>

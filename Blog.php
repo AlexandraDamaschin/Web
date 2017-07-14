@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <body class="w3-light-grey">
 
 <div class="w3-content">
@@ -18,7 +19,6 @@
 
     <!-- Grid -->
     <div class="w3-row">
-
         <!-- Blog entries -->
         <div class="w3-col l8 s12 blog-entries">
             <!-- Blog entry -->
@@ -45,10 +45,11 @@
                     html = html.replace('{$date}',  page.getElementsByTagName("date")[0].childNodes[0].nodeValue);
                     html = html.replace('{$description}',  page.getElementsByTagName("description")[0].childNodes[0].nodeValue);
                     html = html.replace('{$href}',  page.getElementsByTagName("href")[0].childNodes[0].nodeValue);
-                    html = html.replace('{img}',  page.getElementsByTagName("img")[0].childNodes[0].nodeValue);
-                    html = html.replace('{$content}',  page.getElementsByTagName("content")[0].childNodes[0].nodeValue);
+                    html = html.replace('{$link}',  page.getElementsByTagName("link")[0].childNodes[0].nodeValue);
+                    html = html.replace('{$imgSrc}',  page.getElementsByTagName("imgSrc")[0].childNodes[0].nodeValue);
+                    html = html.replace('{$imgAlt}',  page.getElementsByTagName("imgAlt")[0].childNodes[0].nodeValue);
                     html = html.replace('{$comments}',  page.getElementsByTagName("comments")[0].childNodes[0].nodeValue);
-
+                    html = html.replace('{$commentsNo}',  page.getElementsByTagName("commentsNo").nodeValue);
                     $(".blog-entries").append(html);
                 }
             </script>
@@ -88,7 +89,7 @@
 
         <!-- Introduction menu -->
         <div class="w3-col l4">
-            <!-- About Card -->
+            <!-- About us -->
             <div class="w3-card-2 w3-margin w3-margin-top">
                 <img src="img/head.jpg" alt="body" style="width:100%">
                 <div class="w3-container w3-padding">
@@ -99,7 +100,8 @@
                     <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
                         interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.<br></p>
                     <h4><b>Catalina</b></h4>
-                    <p></p>
+                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
+                        interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.<br></p>
                 </div>
             </div>
             <hr>
@@ -138,13 +140,13 @@
 
                 <script>
                     var list =
-                        [{name: 'HTML', href: 'PageHTML.php', img:'', alt:''},
-                            {name: 'XML', href: 'PageXML.php',img:'', alt:''},
-                            {name: 'JSON', href: 'PageJSON.php',img:'', alt:''},
-                            {name: 'CSS', href: 'PageCSS.php',img:'', alt:''},
-                            {name: 'SASS', href: 'PageSASS.php',img:'', alt:''}];
+                        [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html.png', alt:'html small'},
+                            {name: 'XML', href: '/PracticaPageXML.php',img:'/Practica/img/xml.jpg', alt:'xml small'},
+                            {name: 'JSON', href: '/PracticaPageJSON.php',img:'/Practica/img/json.png', alt:'json small'},
+                            {name: 'CSS', href: '/PracticaPageCSS.php',img:'/Practica/img/css.jpg', alt:'css small'},
+                            {name: 'SASS', href: '/PracticaPageSASS.php',img:'/Practica/img/sassLarge.png', alt:''}];
                     var template = '<li class="w3-padding-16 w3-hide-medium w3-hide-small">' +
-                        ' <img src="{img}" alt="{alt}" class="w3-left w3-margin-right" style="width:50px">' +
+                        ' <img src="{$img}" alt="{$alt}" class="w3-left w3-margin-right" style="width:50px">' +
                         ' <span class="w3-large"><a href="{$href}">{$name}</a></span><br>' +
                         '<span>{$text}</span>' +
                         ' </li>';
