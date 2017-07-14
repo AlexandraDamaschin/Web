@@ -14,11 +14,6 @@
                         <a href="{$href}"><b>{$link}</b></a></button>
                 </p>
             </div>
-            <div class="w3-col m4 w3-hide-small">
-<!--                here homepage should be a link going to comments from the original page-->
-                <p><span class="w3-padding-large w3-right"<a href="{$href}"><b>{$comments}</b></a><span
-                            class="w3-tag">{$commentsNo}</span></span></p>
-            </div>
         </div>
     </div>
 </div>

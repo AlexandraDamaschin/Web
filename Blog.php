@@ -48,8 +48,6 @@
                     html = html.replace('{$link}',  page.getElementsByTagName("link")[0].childNodes[0].nodeValue);
                     html = html.replace('{$imgSrc}',  page.getElementsByTagName("imgSrc")[0].childNodes[0].nodeValue);
                     html = html.replace('{$imgAlt}',  page.getElementsByTagName("imgAlt")[0].childNodes[0].nodeValue);
-                    html = html.replace('{$comments}',  page.getElementsByTagName("comments")[0].childNodes[0].nodeValue);
-                    html = html.replace('{$commentsNo}',  page.getElementsByTagName("commentsNo").nodeValue);
                     $(".blog-entries").append(html);
                 }
             </script>

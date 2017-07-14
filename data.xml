@@ -11,8 +11,6 @@
         <imgSrc>/Practica/img/htmlLarge.png</imgSrc>
         <imgAlt>htmlLargeImage</imgAlt>
         <content>Continut important</content>
-        <comments>comentarii</comments>
-        <commentsNo>nr de comentarii</commentsNo>
     </page>
         <!--XML -->
     <page>
@@ -24,8 +22,6 @@
         <imgSrc>/Practica/img/xmlLarge.jpg</imgSrc>
         <imgAlt>xmlLargeImage</imgAlt>
         <content>Continut important</content>
-        <comments>comentarii</comments>
-        <commentsNo>nr de comentarii</commentsNo>
     </page>
 
     <!-- second page-->
@@ -38,8 +34,6 @@
         <imgSrc>/Practica/img/jsonLarge.png</imgSrc>
         <imgAlt>jsonLargeImage</imgAlt>
         <content>Continut important</content>
-        <comments>comentarii</comments>
-        <commentsNo>nr de comentarii</commentsNo>
     </page>
 
     <page>  <!--CSS -->
@@ -51,8 +45,6 @@
         <imgSrc>/Practica/img/cssLarge.jpg</imgSrc>
         <imgAlt>cssLargeImage</imgAlt>
         <content>Continut important</content>
-        <comments>comentarii</comments>
-        <commentsNo>nr de comentarii</commentsNo>
     </page>
 
     <page>  <!--SASS -->
@@ -64,8 +56,6 @@
         <imgSrc>/Practica/img/sassLarge.png</imgSrc>
         <imgAlt>sassLargeImage</imgAlt>
         <content>Continut important</content>
-        <comments>comentarii</comments>
-        <commentsNo>nr de comentarii</commentsNo>
     </page>
 
 </blog>
