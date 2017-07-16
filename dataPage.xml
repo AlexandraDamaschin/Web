@@ -2,10 +2,10 @@
 <pages>
     <page>
         <!-- HTML -->
-        <imgSrc>/Practica/img/htmlLarge.png</imgSrc>
+        <imgSrc>/Practica/img/html-large.png</imgSrc>
         <imgAlt>htmlLarge</imgAlt>
         <title>HTML</title>
-        <stands>Hyper Text Markup Language</stands>
+        <stands>Hyper Text Markup Language i.e. How To Meet Ladies</stands>
         <date>July 3, 2017</date>
         <description>Descrierea proiectului</description>
         <text>explicatii + text?</text>
@@ -13,7 +13,7 @@
 
     <page>
         <!-- XML -->
-        <imgSrc>/Practica/img/xmlLarge.jpg</imgSrc>
+        <imgSrc>/Practica/img/xml-large.jpg</imgSrc>
         <imgAlt>xmlLargeImage</imgAlt>
         <title>XML</title>
         <stands>eXtensible Markup Language</stands>
@@ -25,7 +25,7 @@
 
     <page>
         <!-- JSON -->
-        <imgSrc>/Practica/img/jsonLarge.png</imgSrc>
+        <imgSrc>/Practica/img/json-large.png</imgSrc>
         <imgAlt>jsonLargeImage</imgAlt>
         <title>JSON</title>
         <stands>JavaScript Object Notation</stands>
@@ -37,7 +37,7 @@
 
     <page>
         <!-- CSS -->
-        <imgSrc>/Practica/img/cssLarge.jpg</imgSrc>
+        <imgSrc>/Practica/img/css-large.jpg</imgSrc>
         <imgAlt>cssLargeImage</imgAlt>
         <title>CSS</title>
         <stands> Cascading Style Sheets</stands>
@@ -49,7 +49,7 @@
 
     <page>
         <!-- SASS -->
-        <imgSrc>/Practica/img/sassLarge.png</imgSrc>
+        <imgSrc>/Practica/img/sass-large.png</imgSrc>
         <imgAlt>sassLargeImage</imgAlt>
         <title>SASS</title>
         <stands>Syntactically Awesome StyleSheets</stands>

@@ -8,7 +8,7 @@
         <description>Descrierea proiectului</description>
         <href>/Practica/PageHTML.php</href>
         <link>READ MORE »</link>
-        <imgSrc>/Practica/img/htmlLarge.png</imgSrc>
+        <imgSrc>/Practica/img/html-large.png</imgSrc>
         <imgAlt>htmlLargeImage</imgAlt>
         <content>Continut important</content>
     </page>
@@ -19,7 +19,7 @@
         <description>Descrierea proiectului</description>
         <href>/Practica/PageXML.php</href>
         <link>READ MORE »</link>
-        <imgSrc>/Practica/img/xmlLarge.jpg</imgSrc>
+        <imgSrc>/Practica/img/xml-large.jpg</imgSrc>
         <imgAlt>xmlLargeImage</imgAlt>
         <content>Continut important</content>
     </page>
@@ -31,7 +31,7 @@
         <description> Descrierea proiectului </description>
         <href>/Practica/PageJSON.php</href>
         <link>READ MORE »</link>
-        <imgSrc>/Practica/img/jsonLarge.png</imgSrc>
+        <imgSrc>/Practica/img/json-large.png</imgSrc>
         <imgAlt>jsonLargeImage</imgAlt>
         <content>Continut important</content>
     </page>
@@ -42,7 +42,7 @@
         <description> Descrierea proiectului </description>
         <href>/Practica/PageCSS.php</href>
         <link>READ MORE »</link>
-        <imgSrc>/Practica/img/cssLarge.jpg</imgSrc>
+        <imgSrc>/Practica/img/css-large.jpg</imgSrc>
         <imgAlt>cssLargeImage</imgAlt>
         <content>Continut important</content>
     </page>
@@ -53,7 +53,7 @@
         <description> Descrierea proiectului </description>
         <href>/Practica/PageSASS.php</href>
         <link>READ MORE »</link>
-        <imgSrc>/Practica/img/sassLarge.png</imgSrc>
+        <imgSrc>/Practica/img/sass-large.png</imgSrc>
         <imgAlt>sassLargeImage</imgAlt>
         <content>Continut important</content>
     </page>

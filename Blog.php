@@ -89,7 +89,7 @@
         <div class="w3-col l4">
             <!-- About us -->
             <div class="w3-card-2 w3-margin w3-margin-top">
-                <img src="../Practica/img/head.jpg" alt="abous us " style="width:100%">
+                <img src="../Practica/img/about-authors.jpg" alt="abous us " style="width:100%">
                 <div class="w3-container w3-padding">
                     <h4>About Authors</h4>
                 </div>
@@ -138,11 +138,10 @@
 
                 <script>
                     var list =
-                        [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html.png', alt:'html small'},
-                            {name: 'XML', href: '/PracticaPageXML.php',img:'/Practica/img/xml.jpg', alt:'xml small'},
-                            {name: 'JSON', href: '/PracticaPageJSON.php',img:'/Practica/img/json.png', alt:'json small'},
-                            {name: 'CSS', href: '/PracticaPageCSS.php',img:'/Practica/img/css.jpg', alt:'css small'},
-                            {name: 'SASS', href: '/PracticaPageSASS.php',img:'/Practica/img/sassLarge.png', alt:''}];
+                        [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html-small.png', alt:'html small'},
+                            {name: 'XML', href: '/PracticaPageXML.php',img:'/Practica/img/xml-small.jpg', alt:'xml small'},
+                            {name: 'JSON', href: '/PracticaPageJSON.php',img:'/Practica/img/json-small.png', alt:'json small'},
+                            {name: 'CSS', href: '/PracticaPageCSS.php',img:'/Practica/img/css-small.jpg', alt:'css small'}];
                     var template = '<li class="w3-padding-16 w3-hide-medium w3-hide-small">' +
                         ' <img src="{$img}" alt="{$alt}" class="w3-left w3-margin-right" style="width:50px">' +
                         ' <span class="w3-large"><a href="{$href}">{$name}</a></span><br>' +
@@ -209,8 +208,8 @@
         var list =
             [{ hrefPrev:'Blog.php', prev:'Previous', hrefNext:'BlogPage2.php', next:'Next'}];
         var template =
-            '<button class="w3-button w3-black w3-padding-large w3-margin-bottom">' +
-            '<a href="{$hrefPrev}"<b>{$prev}</b></a></button>'
+            '<button class="w3-button w3-disabled w3-black w3-padding-large w3-margin-bottom">' +
+            '<a href="{$hrefPrev}"<b>{$prev}</b></a></button>'+'&nbsp'
             +'<button class="w3-button w3-black w3-padding-large w3-margin-bottom">' +
             '<a href="{$hrefNext}"<b>{$next}</b></a></button>'
              +'<p>&copy; 2017 by Alexandra Damaschin & Catalina Avram</p>';

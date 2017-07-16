@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <body class="w3-light-grey">
 
 <div class="w3-content">
@@ -56,44 +55,43 @@
 
             <!-- END BLOG ENTRIES -->
         </div>
-
-
         <!-- END Introduction Menu -->
     </div>
 
     <!-- END GRID -->
-    <br>
+</div><br>
 
-    <!-- END w3-content -->
-    <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top footer-entries">
-        <?php
-        ob_start();
-        include('FooterEntry.php');
-        $footerTemplateEntry = ob_get_clean();
+<!-- END w3-content -->
 
-        ob_start();
-        include('dataFooter.xml');
-        $footerData = ob_get_clean();
-        ?>
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top footer-entries">
+    <?php
+    ob_start();
+    include('FooterEntry.php');
+    $footerTemplateEntry = ob_get_clean();
 
-        <script>
-            var xml = <?php echo json_encode($footerData);?>;
-            var template = <?php echo(json_encode($footerTemplateEntry));?>;
-            var parser = new DOMParser();
-            var xmlDoc = parser.parseFromString(xml, "text/xml");
+    ob_start();
+    include('dataFooter.xml');
+    $footerData = ob_get_clean();
+    ?>
 
-            var pages = xmlDoc.getElementsByTagName("page");
-            for (var i = 0; i < 1; i++) {
-                var html = template;
-                var page = pages[i];
-                html = html.replace('{$hrefPrev}', page.getElementsByTagName("hrefPrev")[0].childNodes[0].nodeValue);
-                html = html.replace('{$prev}',  page.getElementsByTagName("prev")[0].childNodes[0].nodeValue);
-                html = html.replace('{$hrefNext}',  page.getElementsByTagName("hrefNext")[0].childNodes[0].nodeValue);
-                html = html.replace('{$next}',  page.getElementsByTagName("next")[0].childNodes[0].nodeValue);
-                $(".footer-entries").append(html);
-            }
-        </script>
-    </footer>
+    <script>
+        var xml = <?php echo json_encode($footerData);?>;
+        var template = <?php echo(json_encode($footerTemplateEntry));?>;
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(xml, "text/xml");
+
+        var pages = xmlDoc.getElementsByTagName("page");
+        for (var i = 0; i < 1; i++) {
+            var html = template;
+            var page = pages[i];
+            html = html.replace('{$hrefPrev}', page.getElementsByTagName("hrefPrev")[0].childNodes[0].nodeValue);
+            html = html.replace('{$prev}',  page.getElementsByTagName("prev")[0].childNodes[0].nodeValue);
+            html = html.replace('{$hrefNext}',  page.getElementsByTagName("hrefNext")[0].childNodes[0].nodeValue);
+            html = html.replace('{$next}',  page.getElementsByTagName("next")[0].childNodes[0].nodeValue);
+            $(".footer-entries").append(html);
+        }
+    </script>
+</footer>
 
 </body>
 </html>
