@@ -8,8 +8,8 @@
 
     <div class="w3-container">
         <p>{$text}</p>
-        <a href="{$buttonEncode}" class="button">{$textEncode}</a>
-        <a href="{$buttonDecode}" class="button">{$textDecode}</a>
+        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="{$buttonEncode}" class="button">{$textEncode}</a></span>
+        <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">  <a href="{$buttonDecode}" class="button">{$textDecode}</a></span>
     </div>
 </div>
 <hr>

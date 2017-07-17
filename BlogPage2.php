@@ -24,7 +24,7 @@
             <!-- ENTRIES IN XML  -->
             <div class="w3-col l8 s12 blog-entries">
                 <!-- Blog entry -->
-
+<!--JSON CODE-->
                 <?php
                 ob_start();
                 include('BlogEntry.php');
@@ -55,6 +55,7 @@
                     }
                 </script>
 <!--            <!-- Blog entry -->
+<!--                HTML CODE-->
 <!--            <div class="w3-card-4 w3-margin w3-white">-->
 <!--                <img src="img/json.png" alt="desktop" style="width:100%">-->
 <!--                <div class="w3-container">-->
@@ -125,6 +126,7 @@
         <!-- Introduction menu -->
         <div class="w3-col l4">
             <!-- About Card -->
+<!--            HTML CODE-->
             <div class="w3-card-2 w3-margin w3-margin-top">
                 <img src="img/about-authors.jpg" alt="body" style="width:100%">
                 <div class="w3-container w3-padding">
@@ -168,7 +170,7 @@
 <!--                        <span>Lorem ipsum dipsum</span>-->
 <!--                    </li>-->
                 </ul>
-                <!-- JSON -->
+                <!-- JSON CODE -->
                 <script>
                     var list =
                         [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html-small.png', alt:'html small'},
@@ -220,6 +222,7 @@
     <!-- END w3-content -->
 </div>
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top w3-footer-buttom">
+<!--    JSON CODE-->
     <script>
         var list =
             [{ hrefPrev:'Blog.php', prev:'Previous', hrefNext:'BlogPage2.php', next:'Next'}];

@@ -22,6 +22,7 @@
         <!-- Blog entries -->
         <div class="w3-col l8 s12 blog-entries">
             <!-- Blog entry -->
+<!--            JSON CODE-->
             <?php
             ob_start();
             include('BlogEntry.php');
@@ -51,6 +52,7 @@
                     $(".blog-entries").append(html);
                 }
             </script>
+<!--            HTML CODE-->
                     <!--This should be commented -->
             <!--Blog entry -->
 <!--            <div class="w3-card-4 w3-margin w3-white">-->
@@ -88,6 +90,7 @@
         <!-- Introduction menu -->
         <div class="w3-col l4">
             <!-- About us -->
+<!--            HTML CODE-->
             <div class="w3-card-2 w3-margin w3-margin-top">
                 <img src="../Practica/img/about-authors.jpg" alt="abous us " style="width:100%">
                 <div class="w3-container w3-padding">
@@ -110,6 +113,7 @@
                     <h4>Popular Posts</h4>
                 </div>
                 <ul class="w3-ul w3-hoverable w3-white">
+<!--                    HTML CODE-->
                     <!--                    <li class="w3-padding-16">-->
                     <!---->
                     <!--                        <img src="img/desktop-petite.png" alt="desktop" class="w3-left w3-margin-right"-->
@@ -135,7 +139,7 @@
                     <!--                        <span>Lorem ipsum dipsum</span>-->
                     <!--                    </li>-->
                 </ul>
-
+<!--JSON CODE-->
                 <script>
                     var list =
                         [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html-small.png', alt:'html small'},
@@ -170,6 +174,7 @@
                     <h4>Tags</h4>
                 </div>
                 <div class="w3-container w3-white">
+<!--                    HTML CODE-->
                     <p><span class="w3-tag w3-light-grey w3-margin-bottom "><a href="PageHTML.php">HTML</a></span>
                         <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="PageHTML.php">footer</a></span>
                         <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a
@@ -207,6 +212,7 @@
 </div>
 
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top w3-footer-buttom">
+<!--    JSON CODE-->
     <script>
         var list =
             [{ hrefPrev:'Blog.php', prev:'Previous', hrefNext:'BlogPage2.php', next:'Next'}];
