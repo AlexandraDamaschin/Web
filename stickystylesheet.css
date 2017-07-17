@@ -96,7 +96,7 @@
     position:relative;
     z-index:5;
 }
-.aliniere h20{text-align:left;}
+.aliniere h20{text-align:left;}  /* asta functioneaza? exista comanda de aliniere? nu era allign aici?*/
 .elementsticky{display:inline;padding-right:1em;}
 .aliniere .elementsticky a{color:#fff;}
 
