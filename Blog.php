@@ -139,9 +139,10 @@
                 <script>
                     var list =
                         [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html-small.png', alt:'html small'},
-                            {name: 'XML', href: '/PracticaPageXML.php',img:'/Practica/img/xml-small.jpg', alt:'xml small'},
-                            {name: 'JSON', href: '/PracticaPageJSON.php',img:'/Practica/img/json-small.png', alt:'json small'},
-                            {name: 'CSS', href: '/PracticaPageCSS.php',img:'/Practica/img/css-small.jpg', alt:'css small'}];
+                            {name: 'XML', href: '/Practica/PageXML.php',img:'/Practica/img/xml-small.jpg', alt:'xml small'},
+                            {name: 'JSON', href: '/Practica/PageJSON.php',img:'/Practica/img/json-small.png', alt:'json small'},
+                            {name: 'CSS', href: '/Practica/PageCSS.php',img:'/Practica/img/css-small.jpg', alt:'css small'},
+                            {name: 'SASS', href: '/Practica/PageSASS.php',img:'/Practica/img/sass-large.png', alt:'sass small'}];
                     var template = '<li class="w3-padding-16 w3-hide-medium w3-hide-small">' +
                         ' <img src="{$img}" alt="{$alt}" class="w3-left w3-margin-right" style="width:50px">' +
                         ' <span class="w3-large"><a href="{$href}">{$name}</a></span><br>' +
@@ -155,6 +156,7 @@
                         html = html.replace('{$href}', entry.href);
                         html = html.replace('{$img}', entry.img);
                         html = html.replace('{$alt}', entry.alt);
+                        html = html.replace('{$text}', entry.alt);
                         $(".w3-ul").append(html);
                     }
                 </script>
@@ -203,6 +205,7 @@
 
     <!-- END w3-content -->
 </div>
+
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top w3-footer-buttom">
     <script>
         var list =

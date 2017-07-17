@@ -19,7 +19,7 @@
         <description>Descrierea proiectului</description>
         <href>/Practica/PageXML.php</href>
         <link>READ MORE »</link>
-        <imgSrc>/Practica/img/xml-large.jpg</imgSrc>
+        <imgSrc>/Practica/img/xml.jpg</imgSrc>
         <imgAlt>xmlLargeImage</imgAlt>
         <content>Continut important</content>
     </page>
