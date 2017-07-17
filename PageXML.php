@@ -44,9 +44,9 @@
                         html = html.replace('{$imgAlt}', page.getElementsByTagName("imgAlt")[0].childNodes[0].nodeValue);
                         html = html.replace('{$title}', page.getElementsByTagName("title")[0].childNodes[0].nodeValue);
                         html = html.replace('{$stands}', page.getElementsByTagName("stands")[0].childNodes[0].nodeValue);
-                        html = html.replace('{$description}', page.getElementsByTagName("description")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$description}', page.getElementsByTagName("description")[0].childNodes[0].wholeText);
                         html = html.replace('{$date}', page.getElementsByTagName("date")[0].childNodes[0].nodeValue);
-                        html = html.replace('{$text}', page.getElementsByTagName("text")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$text}', page.getElementsByTagName("text")[0].childNodes[0].wholeText);
                         html = html.replace('{$buttonEncode}', page.getElementsByTagName("buttonEncode")[0].childNodes[0].nodeValue);
                         html = html.replace('{$textEncode}', page.getElementsByTagName("textEncode")[0].childNodes[0].nodeValue);
                         html = html.replace('{$buttonDecode}', page.getElementsByTagName("buttonDecode")[0].childNodes[0].nodeValue);
