@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<title>Web</title>
+<title>SASS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <body class="w3-light-grey">
 
 <div class="w3-content" >
@@ -49,7 +50,6 @@
                         html = html.replace('{$text}', page.getElementsByTagName("text")[0].childNodes[0].wholeText);
                         $(".pages-entries").append(html);
                     }
-
                 });
             </script>
 

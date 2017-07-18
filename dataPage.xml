@@ -9,7 +9,6 @@
         <date>July 3, 2017</date>
         <description>
             <![CDATA[
-             <h3>What is HTML?</h3>
             <p>
                 HyperText is the method by which you move around on the web
                 — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear
@@ -61,6 +60,7 @@
                 Of course, but since making websites became more popular and needs increased many other supporting languages have been created to allow new stuff to happen, plus HTML is modified every few years to make way for improvements.
                 Cascading Stylesheets are used to control how your pages are presented, and make pages more accessible. Basic special effects and interaction is provided by JavaScript, which adds a lot of power to basic HTML. Most of this advanced stuff is for later down the road, but when using all of these technologies together, you have a lot of power at your disposal.
             </p>
+            <img src="/Practica/img/diffhtml.png" alt="differences html" height="500" width="800" align:center/>
             ]]>
         </text>
         <buttonEncode>https://codebeautify.org/html-encode-string</buttonEncode>
@@ -86,6 +86,8 @@
         </description>
         <text>
             <![CDATA[
+            <img src="/Practica/img/xml.png"/>
+            <img src="/Practica/img/useXml.png"/>
             <p>
                 <h3>Why Study XML?</h3>
                 XML plays an important role in many different IT systems.
@@ -142,7 +144,7 @@
                 The terms parent, child, and sibling are used to describe the relationships between elements.
                 Parent have children. Children have parents. Siblings are children on the same level (brothers and sisters).
                 All elements can have text content (Harry Potter) and attributes (category="cooking").
-                In XML, it is illegal to omit the closing tag. All elements must have a closing tag:
+                In XML, it is illegal to omit the closing tag. All elements must have a closing tag.
             </p>
             ]]>
         </text>
@@ -169,6 +171,7 @@
         </description>
         <text>
             <![CDATA[
+            <img src="/Practica/img/useJson.jpg" align="center"/>
             <p>
                 <h3>Why use JSON?</h3>
                 Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
