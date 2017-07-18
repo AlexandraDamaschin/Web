@@ -51,6 +51,7 @@
                         html = html.replace('{$link}',  page.getElementsByTagName("link")[0].childNodes[0].nodeValue);
                         html = html.replace('{$imgSrc}',  page.getElementsByTagName("imgSrc")[0].childNodes[0].nodeValue);
                         html = html.replace('{$imgAlt}',  page.getElementsByTagName("imgAlt")[0].childNodes[0].nodeValue);
+                        html = html.replace('{$content}',  page.getElementsByTagName("content")[0].childNodes[0].wholeText);
                         $(".blog-entries").append(html);
                     }
                 </script>
