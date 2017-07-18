@@ -292,6 +292,10 @@
             </p>
             ]]>
         </text>
+        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
+        <textEncode>JSON to XML</textEncode>
+        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
+        <textDecode>JSON to HTML</textDecode>
     </page>
 
     <!-- SASS -->
@@ -361,5 +365,9 @@
             </p>
             ]]>
         </text>
+        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
+        <textEncode>JSON to XML</textEncode>
+        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
+        <textDecode>JSON to HTML</textDecode>
     </page>
 </pages>
