@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <pages>
     <!-- HTML -->
@@ -244,4 +245,378 @@
         <description>Descrierea proiectului</description>
         <text>explicatii + text?</text>
     </page>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+    <!-- HTML -->
+    <page>
+        <imgSrc>/Practica/img/html-large.png</imgSrc>
+        <imgAlt>htmlLarge</imgAlt>
+        <title>HTML</title>
+        <stands>Hyper Text Markup Language</stands>
+        <date>July 3, 2017</date>
+        <description>
+            <![CDATA[
+             <h3>What is HTML?</h3>
+            <p>
+                HyperText is the method by which you move around on the web
+                — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear
+                — i.e. you can go to any place on the Internet whenever you want by clicking on links
+                — there is no set order to do things in.
+            Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
+            HTML is a Language, as it has code-words and syntax like any other language.
+            </p>
+            ]]>
+        </description>
+        <text>
+            <![CDATA[
+            <img src="/Practica/img/html.png"/>
+            <p>
+                <h3>What is html5?</h3>
+                HTML5 is supposed to be what HTML should have been in the first place.
+                It is the fifth and current version of the HTML standard.
+            </p>
+
+            <p>
+            <h3>How does it work?</h3>
+            HTML consists of a series of short codes typed into a text-file by the site author
+            — these are the tags. The text is then saved as a html file, and viewed through a browser, like Chrome or Internet Explorer. This browser reads the file and translates the text into a visible form, hopefully rendering the page as the author had intended.
+            </p>
+
+            <p>
+            <h3>What are the tags up to?</h3>
+                <img src="/Practica/img/htmltags.jpg" width=100%/>
+                <br />
+                <br />
+                The tags are what separate normal text from HTML code. You might know them as the words between the angle-brackets. Different tags will perform different functions. The tags themselves don’t appear when you view your page through a browser, but their effects do.
+                If you want to see a list of all tags click here. In our blog, we used some of it.
+            </p>
+
+            <p>
+                <h3>Is this going to take long?</h3>
+                Well, it depends on what you want from it. Knowing HTML will take only a few days of reading and learning the codes for what you want. You can have the basics down in an hour. Once you know the tags you can create HTML pages.
+                However, using HTML and designing good websites is a different story. Good website design is half skill and half talent. Learning techniques and correct use of your tag knowledge will improve your work immensely, and a good understanding of general design and the audience you’re trying to reach will improve your website’s chances of success. Luckily, these things can be researched and understood, as long as you’re willing to work at it so you can output better websites.
+                The range of skills you will learn as a result of running your own website is impressive. You’ll learn about aspects of graphic design, typography and computer programming. Your efficiency with computers in general increases. You’ll also learn about promotion and your writing will probably improve too, as you adapt to write for certain audiences.
+            </p>
+
+            <p>
+                <h3>Do I have to be online all the time?</h3>
+                Not at all. You can code your entire website offline, storing it all on your own computer, and then just transfer all the files onto the web. Then whenever you have new content, you just add that to the existing online version of your site. It’s really quite simple.
+            </p>
+
+            <p>
+                <h3>Is there anything HTML can’t do?</h3>
+                Of course, but since making websites became more popular and needs increased many other supporting languages have been created to allow new stuff to happen, plus HTML is modified every few years to make way for improvements.
+                Cascading Stylesheets are used to control how your pages are presented, and make pages more accessible. Basic special effects and interaction is provided by JavaScript, which adds a lot of power to basic HTML. Most of this advanced stuff is for later down the road, but when using all of these technologies together, you have a lot of power at your disposal.
+            </p>
+            ]]>
+        </text>
+        <buttonEncode>https://codebeautify.org/html-encode-string</buttonEncode>
+        <textEncode>HTML encode String</textEncode>
+        <buttonDecode>https://codebeautify.org/html-decode-string</buttonDecode>
+        <textDecode>HTML decode String</textDecode>
+    </page>
+
+    <!-- XML -->
+    <page>
+        <imgSrc>/Practica/img/xml-large.jpg</imgSrc>
+        <imgAlt>xmlLargeImage</imgAlt>
+        <title>XML</title>
+        <stands>eXtensible Markup Language</stands>
+        <date>July 3, 2017</date>
+        <description>
+            <![CDATA[
+            XML is a markup language much like HTML
+            XML was designed to store and transport data
+            XML was designed to be self-descriptive
+            XML is a W3C Recommendation
+            ]]>
+        </description>
+        <text>
+            <![CDATA[
+            <p>
+                <h3>Why Study XML?</h3>
+                XML plays an important role in many different IT systems.
+                XML is often used for distributing data over the Internet.
+                It is important (for all types of software developers!) to have a good understanding of XML.
+            </p>
+
+            <p>
+                 <h3>XML Does Not DO Anything</h3>
+                Maybe it is a little hard to understand, but XML does not DO anything.
+                The XML above is quite self-descriptive:
+                It has sender information.
+                It has receiver information
+                It has a heading
+                It has a message body.
+                But still, the XML above does not DO anything. XML is just information wrapped in tags.
+            </p>
+
+            <p>
+                <h3>The Difference Between XML and HTML</h3>
+                XML and HTML were designed with different goals:
+                XML was designed to carry data - with focus on what data is
+                HTML was designed to display data - with focus on how data looks
+                XML tags are not predefined like HTML tags are
+            </p>
+
+            <p>
+                <h3>XML Does Not Use Predefined Tags</h3>
+            The XML language has no predefined tags.
+            The tags in the example above (like to and from) are not defined in any XML standard. These tags are "invented" by the author of the XML document.
+            HTML works with predefined tags.
+            With XML, the author must define both the tags and the document structure.
+             </p>
+
+            <p>
+                <h3>XML Simplifies Things</h3>
+                It simplifies data sharing
+                It simplifies data transport
+                It simplifies platform changes
+                It simplifies data availability
+                Many computer systems contain data in incompatible formats. Exchanging data between incompatible systems (or upgraded systems) is a time-consuming task for web developers. Large amounts of data must be converted, and incompatible data is often lost.
+                XML stores data in plain text format. This provides a software- and hardware-independent way of storing, transporting, and sharing data.
+                XML also makes it easier to expand or upgrade to new operating systems, new applications, or new browsers, without losing data.
+                With XML, data can be available to all kinds of "reading machines" like people, computers, voice machines, news feeds, etc.
+            </p>
+
+            <img src="/Practica/img/xmltreee.jpg"/>
+
+            <p>
+                <h3>XML Tree Structure</h3>
+                XML documents are formed as element trees.
+                An XML tree starts at a root element and branches from the root to child elements.
+                All elements can have sub elements (child elements)
+                The terms parent, child, and sibling are used to describe the relationships between elements.
+                Parent have children. Children have parents. Siblings are children on the same level (brothers and sisters).
+                All elements can have text content (Harry Potter) and attributes (category="cooking").
+                In XML, it is illegal to omit the closing tag. All elements must have a closing tag:
+            </p>
+            ]]>
+        </text>
+        <buttonEncode>https://codebeautify.org/xmltojson</buttonEncode>
+        <textEncode>XML to JSON</textEncode>
+        <buttonDecode>https://codebeautify.org/xmltojson</buttonDecode>
+        <textDecode>XML to HTML</textDecode>
+    </page>
+
+    <!-- JSON -->
+    <page>
+        <imgSrc>/Practica/img/json-large.png</imgSrc>
+        <imgAlt>jsonLargeImage</imgAlt>
+        <title>JSON</title>
+        <stands>JavaScript Object Notation</stands>
+        <date>July 3, 2017</date>
+        <description>
+            <![CDATA[
+            JSON is a syntax for storing and exchanging data.
+            JSON is text, written with JavaScript object notation.
+            JSON uses JavaScript syntax, but the JSON format is text only.
+            Text can be read and used as a data format by any programming language.
+            ]]>
+        </description>
+        <text>
+            <![CDATA[
+            <p>
+                <h3>Why use JSON?</h3>
+                Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+                JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
+                JSON.parse()
+                So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+            </p>
+
+            <p>
+                <h3>JSON Syntax Rules</h3>
+                JSON syntax is derived from JavaScript object notation syntax:
+                Data is in name/value pairs
+                Data is separated by commas
+                Curly braces hold objects
+                Square brackets hold arrays
+            </p>
+
+            <p>
+                <h3>JSON is Like XML Because</h3>
+                Both JSON and XML are "self describing" (human readable)
+                Both JSON and XML are hierarchical (values within values)
+                Both JSON and XML can be parsed and used by lots of programming languages
+                Both JSON and XML can be fetched with an XMLHttpRequest
+            </p>
+
+            <p>
+                <h3>JSON is Unlike XML Because</h3>
+                JSON doesn't use end tag
+                JSON is shorter
+                JSON is quicker to read and write
+                JSON can use arrays
+                The biggest difference is:
+                XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
+            </p>
+
+            <p>
+                <h3>Why JSON is Better Than XML</h3>
+                XML is much more difficult to parse than JSON.
+                JSON is parsed into a ready-to-use JavaScript object.
+                For AJAX applications, JSON is faster and easier than XML:
+                Using XML
+                Fetch an XML document
+                Use the XML DOM to loop through the document
+                Extract values and store in variables
+                Using JSON
+                Fetch a JSON string
+                JSON.Parse the JSON string
+            </p>
+            ]]>
+        </text>
+        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
+        <textEncode>JSON to XML</textEncode>
+        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
+        <textDecode>JSON to HTML</textDecode>
+    </page>
+
+    <!-- CSS -->
+    <page>
+        <imgSrc>/Practica/img/css-large.jpg</imgSrc>
+        <imgAlt>cssLargeImage</imgAlt>
+        <title>CSS</title>
+        <stands> Cascading Style Sheets</stands>
+        <date>July 3, 2017</date>
+        <description>
+            <![CDATA[
+            JSON is a syntax for storing and exchanging data.
+            JSON is text, written with JavaScript object notation.
+            JSON uses JavaScript syntax, but the JSON format is text only.
+            Text can be read and used as a data format by any programming language.
+            ]]>
+        </description>
+        <text>
+            <![CDATA[
+            <p>
+                <h3>Why use JSON?</h3>
+                Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+                JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
+                JSON.parse()
+                So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+            </p>
+
+            <p>
+                <h3>JSON Syntax Rules</h3>
+                JSON syntax is derived from JavaScript object notation syntax:
+                Data is in name/value pairs
+                Data is separated by commas
+                Curly braces hold objects
+                Square brackets hold arrays
+            </p>
+
+            <p>
+                <h3>JSON is Like XML Because</h3>
+                Both JSON and XML are "self describing" (human readable)
+                Both JSON and XML are hierarchical (values within values)
+                Both JSON and XML can be parsed and used by lots of programming languages
+                Both JSON and XML can be fetched with an XMLHttpRequest
+            </p>
+
+            <p>
+                <h3>JSON is Unlike XML Because</h3>
+                JSON doesn't use end tag
+                JSON is shorter
+                JSON is quicker to read and write
+                JSON can use arrays
+                The biggest difference is:
+                XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
+            </p>
+
+            <p>
+                <h3>Why JSON is Better Than XML</h3>
+                XML is much more difficult to parse than JSON.
+                JSON is parsed into a ready-to-use JavaScript object.
+                For AJAX applications, JSON is faster and easier than XML:
+                Using XML
+                Fetch an XML document
+                Use the XML DOM to loop through the document
+                Extract values and store in variables
+                Using JSON
+                Fetch a JSON string
+                JSON.Parse the JSON string
+            </p>
+            ]]>
+        </text>
+        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
+        <textEncode>JSON to XML</textEncode>
+        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
+        <textDecode>JSON to HTML</textDecode>
+    </page>
+
+    <!-- SASS -->
+    <page>
+        <imgSrc>/Practica/img/sass-large.png</imgSrc>
+        <imgAlt>sassLargeImage</imgAlt>
+        <title>SASS</title>
+        <stands>Syntactically Awesome StyleSheets</stands>
+        <date>July 3, 2017</date>
+        <description>
+            <![CDATA[
+            JSON is a syntax for storing and exchanging data.
+            JSON is text, written with JavaScript object notation.
+            JSON uses JavaScript syntax, but the JSON format is text only.
+            Text can be read and used as a data format by any programming language.
+            ]]>
+        </description>
+        <text>
+            <![CDATA[
+            <p>
+                <h3>Why use JSON?</h3>
+                Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+                JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
+                JSON.parse()
+                So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+            </p>
+
+            <p>
+                <h3>JSON Syntax Rules</h3>
+                JSON syntax is derived from JavaScript object notation syntax:
+                Data is in name/value pairs
+                Data is separated by commas
+                Curly braces hold objects
+                Square brackets hold arrays
+            </p>
+
+            <p>
+                <h3>JSON is Like XML Because</h3>
+                Both JSON and XML are "self describing" (human readable)
+                Both JSON and XML are hierarchical (values within values)
+                Both JSON and XML can be parsed and used by lots of programming languages
+                Both JSON and XML can be fetched with an XMLHttpRequest
+            </p>
+
+            <p>
+                <h3>JSON is Unlike XML Because</h3>
+                JSON doesn't use end tag
+                JSON is shorter
+                JSON is quicker to read and write
+                JSON can use arrays
+                The biggest difference is:
+                XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
+            </p>
+
+            <p>
+                <h3>Why JSON is Better Than XML</h3>
+                XML is much more difficult to parse than JSON.
+                JSON is parsed into a ready-to-use JavaScript object.
+                For AJAX applications, JSON is faster and easier than XML:
+                Using XML
+                Fetch an XML document
+                Use the XML DOM to loop through the document
+                Extract values and store in variables
+                Using JSON
+                Fetch a JSON string
+                JSON.Parse the JSON string
+            </p>
+            ]]>
+        </text>
+        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
+        <textEncode>JSON to XML</textEncode>
+        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
+        <textDecode>JSON to HTML</textDecode>
+    </page>
+>>>>>>> origin/master
 </pages>
