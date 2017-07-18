@@ -37,7 +37,9 @@
 
             <p>
             <h3>What are the tags up to?</h3>
-                <img src="/Practica/img/htmltags.jpg"/>
+                <img src="/Practica/img/htmltags.jpg" width=100%/>
+                <br />
+                <br />
                 The tags are what separate normal text from HTML code. You might know them as the words between the angle-brackets. Different tags will perform different functions. The tags themselves don’t appear when you view your page through a browser, but their effects do.
                 If you want to see a list of all tags click here. In our blog, we used some of it.
             </p>
@@ -129,8 +131,8 @@
                 XML also makes it easier to expand or upgrade to new operating systems, new applications, or new browsers, without losing data.
                 With XML, data can be available to all kinds of "reading machines" like people, computers, voice machines, news feeds, etc.
             </p>
-            
-            <img src="/Practica/img/xml-large.jpg"/>
+
+            <img src="/Practica/img/xmltreee.jpg"/>
 
             <p>
                 <h3>XML Tree Structure</h3>
@@ -230,8 +232,70 @@
         <title>CSS</title>
         <stands> Cascading Style Sheets</stands>
         <date>July 3, 2017</date>
-        <description>Descrierea proiectului</description>
-        <text>explicatii + text?</text>
+        <description>
+            <![CDATA[
+            JSON is a syntax for storing and exchanging data.
+            JSON is text, written with JavaScript object notation.
+            JSON uses JavaScript syntax, but the JSON format is text only.
+            Text can be read and used as a data format by any programming language.
+            ]]>
+        </description>
+        <text>
+            <![CDATA[
+            <p>
+                <h3>Why use JSON?</h3>
+                Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+                JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
+                JSON.parse()
+                So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+            </p>
+
+            <p>
+                <h3>JSON Syntax Rules</h3>
+                JSON syntax is derived from JavaScript object notation syntax:
+                Data is in name/value pairs
+                Data is separated by commas
+                Curly braces hold objects
+                Square brackets hold arrays
+            </p>
+
+            <p>
+                <h3>JSON is Like XML Because</h3>
+                Both JSON and XML are "self describing" (human readable)
+                Both JSON and XML are hierarchical (values within values)
+                Both JSON and XML can be parsed and used by lots of programming languages
+                Both JSON and XML can be fetched with an XMLHttpRequest
+            </p>
+
+            <p>
+                <h3>JSON is Unlike XML Because</h3>
+                JSON doesn't use end tag
+                JSON is shorter
+                JSON is quicker to read and write
+                JSON can use arrays
+                The biggest difference is:
+                XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
+            </p>
+
+            <p>
+                <h3>Why JSON is Better Than XML</h3>
+                XML is much more difficult to parse than JSON.
+                JSON is parsed into a ready-to-use JavaScript object.
+                For AJAX applications, JSON is faster and easier than XML:
+                Using XML
+                Fetch an XML document
+                Use the XML DOM to loop through the document
+                Extract values and store in variables
+                Using JSON
+                Fetch a JSON string
+                JSON.Parse the JSON string
+            </p>
+            ]]>
+        </text>
+        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
+        <textEncode>JSON to XML</textEncode>
+        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
+        <textDecode>JSON to HTML</textDecode>
     </page>
 
     <!-- SASS -->
@@ -241,7 +305,69 @@
         <title>SASS</title>
         <stands>Syntactically Awesome StyleSheets</stands>
         <date>July 3, 2017</date>
-        <description>Descrierea proiectului</description>
-        <text>explicatii + text?</text>
+        <description>
+            <![CDATA[
+            JSON is a syntax for storing and exchanging data.
+            JSON is text, written with JavaScript object notation.
+            JSON uses JavaScript syntax, but the JSON format is text only.
+            Text can be read and used as a data format by any programming language.
+            ]]>
+        </description>
+        <text>
+            <![CDATA[
+            <p>
+                <h3>Why use JSON?</h3>
+                Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+                JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
+                JSON.parse()
+                So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+            </p>
+
+            <p>
+                <h3>JSON Syntax Rules</h3>
+                JSON syntax is derived from JavaScript object notation syntax:
+                Data is in name/value pairs
+                Data is separated by commas
+                Curly braces hold objects
+                Square brackets hold arrays
+            </p>
+
+            <p>
+                <h3>JSON is Like XML Because</h3>
+                Both JSON and XML are "self describing" (human readable)
+                Both JSON and XML are hierarchical (values within values)
+                Both JSON and XML can be parsed and used by lots of programming languages
+                Both JSON and XML can be fetched with an XMLHttpRequest
+            </p>
+
+            <p>
+                <h3>JSON is Unlike XML Because</h3>
+                JSON doesn't use end tag
+                JSON is shorter
+                JSON is quicker to read and write
+                JSON can use arrays
+                The biggest difference is:
+                XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
+            </p>
+
+            <p>
+                <h3>Why JSON is Better Than XML</h3>
+                XML is much more difficult to parse than JSON.
+                JSON is parsed into a ready-to-use JavaScript object.
+                For AJAX applications, JSON is faster and easier than XML:
+                Using XML
+                Fetch an XML document
+                Use the XML DOM to loop through the document
+                Extract values and store in variables
+                Using JSON
+                Fetch a JSON string
+                JSON.Parse the JSON string
+            </p>
+            ]]>
+        </text>
+        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
+        <textEncode>JSON to XML</textEncode>
+        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
+        <textDecode>JSON to HTML</textDecode>
     </page>
 </pages>

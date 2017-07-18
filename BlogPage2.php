@@ -176,8 +176,7 @@
                         [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html-small.png', alt:'html small'},
                             {name: 'XML', href: '/PracticaPageXML.php',img:'/Practica/img/xml-small.jpg', alt:'xml small'},
                             {name: 'JSON', href: '/PracticaPageJSON.php',img:'/Practica/img/json-small.png', alt:'json small'},
-                            {name: 'CSS', href: '/PracticaPageCSS.php',img:'/Practica/img/css-small.jpg', alt:'css small'},
-                            {name: 'SASS', href: '/PracticaPageSASS.php',img:'/Practica/img/sass-large.png', alt:'sass small'}];
+                            {name: 'CSS', href: '/PracticaPageCSS.php',img:'/Practica/img/css-small.jpg', alt:'css small'}];
                     var template = '<li class="w3-padding-16 w3-hide-medium w3-hide-small">' +
                         ' <img src="{$img}" alt="{$alt}" class="w3-left w3-margin-right" style="width:50px">' +
                         ' <span class="w3-large"><a href="{$href}">{$name}</a></span><br>' +
