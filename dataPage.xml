@@ -188,7 +188,7 @@
                 Curly braces hold objects
                 Square brackets hold arrays
             </p>
-
+               <img src="/Practica/img/jsonFormater.png" align="center"/>
             <p>
                 <h3>JSON is Like XML Because</h3>
                 Both JSON and XML are "self describing" (human readable)
