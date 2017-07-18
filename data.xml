@@ -4,42 +4,67 @@
     <!-- first page-->
     <page> <!--HTML -->
         <title>HTML</title>
+        <description>Hyper Text Markup Language</description>
         <date>July 3, 2017</date>
-        <description>Descrierea proiectului</description>
         <href>/Practica/PageHTML.php</href>
         <link>READ MORE »</link>
         <imgSrc>/Practica/img/html-large.png</imgSrc>
         <imgAlt>htmlLargeImage</imgAlt>
-        <content>Continut important</content>
+        <content>
+            <![CDATA[
+             <h3>What is HTML?</h3>
+            <p>
+                HyperText is the method by which you move around on the web
+                — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear
+                — i.e. you can go to any place on the Internet whenever you want by clicking on links
+                — there is no set order to do things in.
+            Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
+            HTML is a Language, as it has code-words and syntax like any other language.
+            </p>
+            ]]></content>
     </page>
         <!--XML -->
     <page>
         <title>XML</title>
+        <description>eXtensible Markup Language</description>
         <date>July 5, 2017</date>
-        <description>Descrierea proiectului</description>
         <href>/Practica/PageXML.php</href>
         <link>READ MORE »</link>
         <imgSrc>/Practica/img/xml-large.jpg</imgSrc>
         <imgAlt>xmlLargeImage</imgAlt>
-        <content>Continut important</content>
+        <content>
+            <![CDATA[
+            XML is a markup language much like HTML
+            XML was designed to store and transport data
+            XML was designed to be self-descriptive
+            XML is a W3C Recommendation
+            ]]>
+        </content>
     </page>
 
     <!-- second page-->
     <page>  <!--JSON -->
         <title>JSON</title>
+        <description>JavaScript Object Notation </description>
         <date>July 10, 2017</date>
-        <description> Descrierea proiectului </description>
         <href>/Practica/PageJSON.php</href>
         <link>READ MORE »</link>
         <imgSrc>/Practica/img/json-large.png</imgSrc>
         <imgAlt>jsonLargeImage</imgAlt>
-        <content>Continut important</content>
+        <content>
+            <![CDATA[
+            JSON is a syntax for storing and exchanging data.
+            JSON is text, written with JavaScript object notation.
+            JSON uses JavaScript syntax, but the JSON format is text only.
+            Text can be read and used as a data format by any programming language.
+            ]]>
+        </content>
     </page>
 
     <page>  <!--CSS -->
         <title>CSS</title>
+        <description>Cascading Style Sheets </description>
         <date>July 15, 2017</date>
-        <description> Descrierea proiectului </description>
         <href>/Practica/PageCSS.php</href>
         <link>READ MORE »</link>
         <imgSrc>/Practica/img/css-large.jpg</imgSrc>
@@ -49,8 +74,8 @@
 
     <page>  <!--SASS -->
         <title>SASS</title>
+        <description> Syntactically Awesome StyleSheets </description>
         <date>July 20, 2017</date>
-        <description> Descrierea proiectului </description>
         <href>/Practica/PageSASS.php</href>
         <link>READ MORE »</link>
         <imgSrc>/Practica/img/sass-large.png</imgSrc>
