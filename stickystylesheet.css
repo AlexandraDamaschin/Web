@@ -21,7 +21,7 @@
     -webkit-transition:-webkit-transform .15s linear;
 }
 #listasticky .elementsticky{
-    margin: 1.5em;
+    margin: 0.5em;
     float:left;
 }
 /*ul li h20{*/

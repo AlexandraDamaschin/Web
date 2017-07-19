@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>CSS</title>
+<title>Web</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -54,18 +54,6 @@
                 });
             </script>
         </div>
-            <!-- sticky notes -->
-            <ul id="listasticky">
-                <li class="blueM elementsticky"><a href=""><h20>#titanic {</h20><p class="aliniere">float : none;<br><br> }</p></a></li>
-                <li class="yellowM elementsticky"><a href="" ><h20>#wife {</h20><p class="aliniere">right: 100%; <br>margin: 0;<br><br> }</p></a></li>
-                <li class="greenM elementsticky"><a href="" ><h20>#tower-of-pisa {</h20><p class="aliniere">font-style:italic;<br> }</p></a></li>
-                <li class="purpleM elementsticky"><a href="" ><h20>.ninja {</h20><p class="aliniere">color:black;<br>visibility:hidden;<br>animation-duration:0.00005s; }</p></a></li>
-                <li class="pinkM elementsticky"><a href="" ><h20>Title #5</h20><p class="aliniere">Text Content #5</p></a></li>
-                <li class="greenM elementsticky"><a href="" ><h20>Title #6</h20><p class="aliniere">Text Content #6</p></a></li>
-                <li class="blueM elementsticky"><a href="" ><h20>Title #7</h20><p class="aliniere">Text Content #7</p></a></li>
-                <li class="orangeM elementsticky"><a href="" ><h20>Title #8</h20><p class="aliniere">Text Content #8</p></a></li>
-            </ul>
-            <!-- end sticky notes -->
 
             <!-- END BLOG ENTRIES -->
         </div>

@@ -9,6 +9,7 @@
         <date>July 3, 2017</date>
         <description>
             <![CDATA[
+             <h3>What is HTML?</h3>
             <p>
                 HyperText is the method by which you move around on the web
                 — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear
@@ -60,7 +61,6 @@
                 Of course, but since making websites became more popular and needs increased many other supporting languages have been created to allow new stuff to happen, plus HTML is modified every few years to make way for improvements.
                 Cascading Stylesheets are used to control how your pages are presented, and make pages more accessible. Basic special effects and interaction is provided by JavaScript, which adds a lot of power to basic HTML. Most of this advanced stuff is for later down the road, but when using all of these technologies together, you have a lot of power at your disposal.
             </p>
-            <img src="/Practica/img/diffhtml.png" alt="differences html" height="500" width="800" align:center/>
             ]]>
         </text>
         <buttonEncode>https://codebeautify.org/html-encode-string</buttonEncode>
@@ -86,8 +86,6 @@
         </description>
         <text>
             <![CDATA[
-            <img src="/Practica/img/xml.png"/>
-            <img src="/Practica/img/useXml.png"/>
             <p>
                 <h3>Why Study XML?</h3>
                 XML plays an important role in many different IT systems.
@@ -144,7 +142,7 @@
                 The terms parent, child, and sibling are used to describe the relationships between elements.
                 Parent have children. Children have parents. Siblings are children on the same level (brothers and sisters).
                 All elements can have text content (Harry Potter) and attributes (category="cooking").
-                In XML, it is illegal to omit the closing tag. All elements must have a closing tag.
+                In XML, it is illegal to omit the closing tag. All elements must have a closing tag:
             </p>
             ]]>
         </text>
@@ -171,7 +169,6 @@
         </description>
         <text>
             <![CDATA[
-            <img src="/Practica/img/useJson.jpg" align="center"/>
             <p>
                 <h3>Why use JSON?</h3>
                 Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
@@ -188,7 +185,7 @@
                 Curly braces hold objects
                 Square brackets hold arrays
             </p>
-               <img src="/Practica/img/jsonFormater.png" align="center"/>
+
             <p>
                 <h3>JSON is Like XML Because</h3>
                 Both JSON and XML are "self describing" (human readable)
@@ -237,62 +234,154 @@
         <date>July 3, 2017</date>
         <description>
             <![CDATA[
-            JSON is a syntax for storing and exchanging data.
-            JSON is text, written with JavaScript object notation.
-            JSON uses JavaScript syntax, but the JSON format is text only.
-            Text can be read and used as a data format by any programming language.
+            CSS is a simple design language intended to simplify the process of making web pages presentable.
             ]]>
         </description>
         <text>
             <![CDATA[
             <p>
-                <h3>Why use JSON?</h3>
-                Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
-                JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
-                JSON.parse()
-                So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+                <h3>Why use CSS?</h3>
+                CSS handles the look of a web page.
+                Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects.
+                CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document
+
             </p>
 
             <p>
-                <h3>JSON Syntax Rules</h3>
-                JSON syntax is derived from JavaScript object notation syntax:
-                Data is in name/value pairs
-                Data is separated by commas
-                Curly braces hold objects
-                Square brackets hold arrays
+                <h3>Advantages of CSS</h3>
+•	CSS saves time − You can reuse same sheet in multiple HTML pages.<br />
+•	Pages load faster − write one CSS rule of a tag and apply it to all the occurrences of that tag.<br />
+•	Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.<br />
+•	Superior styles to HTML − you can give a far better look to your HTML page in comparison to HTML attributes.<br />
+•	Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device.<br />
+•	Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS.
+So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.<br />
+•	Offline Browsing − CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.
+The cache also ensures faster loading and better overall performance of the website.<br />
+•	Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.
+
             </p>
 
             <p>
-                <h3>JSON is Like XML Because</h3>
-                Both JSON and XML are "self describing" (human readable)
-                Both JSON and XML are hierarchical (values within values)
-                Both JSON and XML can be parsed and used by lots of programming languages
-                Both JSON and XML can be fetched with an XMLHttpRequest
+                <h3>CSS Version</h3>
+               CSS3 was became a W3C recommendation in June 1999 and builds on older versions CSS.
+                It is the actual version.
+
             </p>
 
             <p>
-                <h3>JSON is Unlike XML Because</h3>
-                JSON doesn't use end tag
-                JSON is shorter
-                JSON is quicker to read and write
-                JSON can use arrays
-                The biggest difference is:
-                XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
+                <h3>CSS Syntax</h3>
+          A style rule is made of three parts :<br />
+•	Selector;<br />
+•	Property;<br />
+•	Value.<br />
+
+
             </p>
 
             <p>
-                <h3>Why JSON is Better Than XML</h3>
-                XML is much more difficult to parse than JSON.
-                JSON is parsed into a ready-to-use JavaScript object.
-                For AJAX applications, JSON is faster and easier than XML:
-                Using XML
-                Fetch an XML document
-                Use the XML DOM to loop through the document
-                Extract values and store in variables
-                Using JSON
-                Fetch a JSON string
-                JSON.Parse the JSON string
+                <h3>CSS - Inclusion</h3>
+              There are four ways to associate styles with your HTML document.
+External CSS - The <link> Element
+The <link> element can be used to include an external stylesheet file in your HTML document.
+An external style sheet is a separate text file with ".css" extension were you define all the Style rules.
+The generic syntax of including external CSS file
+
+Attributes
+Attributes associated with style elements are −
+Attribute	Value	Description
+type	text/css	Specifies the style sheet language as a content-type (MIME type).
+This attribute is required.
+href	URL	Specifies the style sheet file having Style rules.
+This attribute is a required.
+
+
             </p>
+              <p>
+                <h3>CSS Rules Overriding</h3>
+•	Any inline style sheet takes highest priority.So, it will override any rule defined in <style>...</style> tags or rules defined in any external style sheet file.<br />
+•	Any rule defined in <style>...</style> tags will override rules defined in any external style sheet file.<br />
+•	Any rule defined in external style sheet file takes lowest priority, and rules defined in this file will be applied only when above two rules are not applicable.
+
+
+            </p>
+
+              <p>
+                <h3>CSS Comments</h3>
+         Many times, you may need to put additional comments in your style sheet blocks.
+         So, it is very easy to comment any part in style sheet.
+         You can simple put your comments inside /*.....this is a comment in style sheet.....*/.
+
+            </p>
+
+             <p>
+                <h3>CSS - Colors</h3>
+         CSS uses color values to specify a color.
+         You can specify your color values in various formats.
+Format	Syntax	Example
+Hex Code	#RRGGBB	p{color:#FF0000;}
+Short Hex Code	#RGB	p{color:#6A7;}
+RGB %	rgb(rrr%,ggg%,bbb%)	p{color:rgb(50%,50%,50%);}
+RGB Absolute	rgb(rrr,ggg,bbb)	p{color:rgb(0,0,255);}
+keyword	aqua, black, etc.	p{color:teal;}
+
+            </p>
+
+             <p>
+                <h3>CSS - Fonts</h3>
+        Font properties of an element:<br />
+•	The font-family property is used to change the face of a font.<br />
+•	The font-style property is used to make a font italic or oblique.<br />
+•	The font-variant property is used to create a small-caps effect.<br />
+•	The font-weight property is used to increase or decrease how bold or light a font appears.<br />
+•	The font-size property is used to increase or decrease the size of a font.<br />
+•	The font property is used as shorthand to specify a number of other font properties.<br />
+Set the Font Family
+
+Set the Font Style
+Possible values are normal, italic and oblique.
+
+CSS - Text
+how to manipulate text using CSS properties. You can set following text properties of an element −
+Set the Text Color
+
+Set the Space between Characters
+
+Set the Text Alignment
+
+Set the Text Cases
+Possible values are none, capitalize, uppercase, lowercase.
+
+
+
+            </p>
+
+
+
+<!-- sticky notes -->
+            <ul id="listasticky">
+                <li class="blueM elementsticky"><a href=""><h20>#titanic {</h20><p class="aliniere">float : none;<br><br> }</p></a></li>
+                <li class="yellowM elementsticky"><a href="" ><h20>#wife {</h20><p class="aliniere">right: 100%; <br>margin: 0;<br><br> }</p></a></li>
+                <li class="greenM elementsticky"><a href="" ><h20>#tower-of-pisa {</h20><p class="aliniere">font-style:italic;<br> }</p></a></li>
+                <li class="pinkM elementsticky"><a href="" ><h20>.ninja {</h20><p class="aliniere">color:black;<br>visibility:hidden;<br>animation-duration:0.00005s; }</p></a></li>
+                <li class="greenM elementsticky"><a href="" ><h20>Title #5</h20><p class="aliniere">Text Content #5</p></a></li>
+                <li class="purpleM elementsticky"><a href="" ><h20>Title #8</h20><p class="aliniere">Text Content #8</p></a></li>
+                <li class="blueM elementsticky"><a href="" ><h20>Title #5</h20><p class="aliniere">Text Content #5</p></a></li>
+                <li class="orangeM elementsticky"><a href="" ><h20>Title #8</h20><p class="aliniere">Text Content #8</p></a></li>
+            </ul>
+<!-- end sticky notes -->
+
+            <p>
+                <h3>Animation</h3>
+
+                bla bla
+            </p>
+
+            <p>
+                <h3>AnotherAnimation</h3>
+             bla bla
+            </p>
+
             ]]>
         </text>
         <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
@@ -310,67 +399,162 @@
         <date>July 3, 2017</date>
         <description>
             <![CDATA[
-            JSON is a syntax for storing and exchanging data.
-            JSON is text, written with JavaScript object notation.
-            JSON uses JavaScript syntax, but the JSON format is text only.
-            Text can be read and used as a data format by any programming language.
+            Sass is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more.
+            It also helps to keep things organised and allows you to create style sheets faster.
             ]]>
         </description>
         <text>
             <![CDATA[
-            <p>
-                <h3>Why use JSON?</h3>
-                Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
-                JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
-                JSON.parse()
-                So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
-            </p>
+
+<ul class="tree">
+  <li class="treeelement">
+      <input type="checkbox" checked="checked" id="c1" />
+      <label class="tree_label" for="c1">Level 0</label>
+    <ul class="treelist">
+      <li class="treeelement">
+        <input type="checkbox" checked="checked" id="c2" />
+        <label for="c2" class="tree_label">Level 1</label>
+        <ul class="treelist">
+          <li class="treeelement"><span class="tree_label">Level 2</span></li>
+          <li class="treeelement"><span class="tree_label">Level 2</span></li>
+        </ul>
+      </li>
+      <li class="treeelement">
+        <input type="checkbox" id="c3" />
+        <label for="c3" class="tree_label">Looong level 1 <br/>label text <br/>with line-breaks</label>
+        <ul class="treelist">
+          <li class="treeelement"><span class="tree_label">Level 2</span></li>
+          <li class="treeelement">
+            <input type="checkbox" id="c4" />
+            <label for="c4" class="tree_label"><span class="tree_custom">Specified tree item view</span></label>
+            <ul class="treelist">
+              <li class="treeelement"><span class="tree_label">Level 3</span></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+
+  <li class="treeelement">
+    <input type="checkbox" id="c5" />
+    <label class="tree_label" for="c5">Level 0</label>
+    <ul class="treelist">
+      <li class="treeelement">
+        <input type="checkbox" id="c6" />
+        <label for="c6" class="tree_label">Level 1</label>
+        <ul class="treelist">
+          <li class="treeelement"><span class="tree_label">Level 2</span></li>
+        </ul>
+      </li>
+      <li class="treeelement">
+        <input type="checkbox" id="c7" />
+        <label for="c7" class="tree_label">Level 1</label>
+        <ul class="treelist">
+          <li class="treeelement"><span class="tree_label">Level 2</span></li>
+          <li class="treeelement">
+            <input type="checkbox" id="c8" />
+            <label for="c8" class="tree_label">Level 2</label>
+            <ul class="treelist">
+              <li class="treeelement"><span class="tree_label">Level 3</span></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
 
             <p>
-                <h3>JSON Syntax Rules</h3>
-                JSON syntax is derived from JavaScript object notation syntax:
-                Data is in name/value pairs
-                Data is separated by commas
-                Curly braces hold objects
-                Square brackets hold arrays
+                <h3>Why use SASS</h3>
+•  Fully CSS-compatible
+   <br />
+•  Language extensions such as variables, nesting, and mixins
+   <br />
+•  Many useful functions for manipulating colors and other values
+   <br />
+•  Well-formatted, customizable output
+            </p>
+            <p>
+                <h3>SASS Syntax</h3>
+               Sass includes two syntax options:
+               <br />
+•	SCSS (Sassy CSS):
+<br />
+Uses the ".scss" file extension and is fully compliant with CSS syntax;
+<br />
+•	Indented (simply called 'Sass'):
+<br />
+Uses ".sass" file extension and indentation rather than brackets; it is not fully compliant with CSS syntax, but it's quicker to write;
+Note that files can be converted from one syntax to the other using the sass-convert command.
+
+            </p>
+            <p>
+                <h3>Variables</h3>
+               Just like other programming languages, Sass allows the use of variables that can store information you can use throughout your style sheet.
+               For example, you can store a colour value in a variable at the top of the file, and then use this variable when setting the colour of your elements.
+               This enables you to quickly change your colours without having to modify each line separately.
+            </p>
+            <p>
+                <h3>Nesting</h3>
+                Nesting is a double-edged sword.
+                While it provides an excellent method for reducing the amount of code you need to write, it can also lead to over-qualified CSS if not executed carefully.
+                The idea is to nest your CSS selectors in such a way as to mimic your HTML hierarchy.
+                The following shows a basic navigation style that uses nesting:
+
+            </p>
+            <p>
+                <h3>Partials</h3>
+               Partials are smaller Sass files that can be imported (see next section) into other Sass files.
+               Think of partials as code snippets.
+               With these code snippets, your CSS can now be modular and easier to maintain.
+               A partial is designated as such by naming it with a leading underscore: "_partial.scss".
+            </p>
+             <p>
+                <h3>Import</h3>
+               Used with Partials (see previous section), the @import directive allows you to import your partial files into the current file, to build one single CSS file.
+               Be mindful of how many imports you're using as an HTTP request will be generated for each one.
+            </p>
+             <p>
+                <h3>Mixins</h3>
+               One of the advantages of using preprocessors is their ability to take complex, long-winded code and simplify it. This is where mixins come in handy!
+               For example, if you need to include the vendor prefixes, you can use a mixin instead.
+               Take a look at this example for border-radius:
+
+
+            </p>
+             <p>
+                <h3>Extend/Inheritance</h3>
+                The @extend directive has been called one of Sass' most powerful features.
+                After seeing it in action, it's clear why.
+                The idea is that with this directive you won't have to include multiple class names on your HTML elements and can keep your code DRY.
+                Your selectors can inherit the styles of other selectors, and then be easily extended when required.
+                Now that's powerful.
+
+            </p>
+             <p>
+                <h3>Operators</h3>
+                Having the ability to perform calculations in your CSS allows you to do more, like convert pixel values into percentages.
+                You'll have access to standard maths functions like addition, subtraction, multiplication and division.
+                Of course, these functions can be combined to create complex calculations.
+                In addition, Sass includes a few built-in functions to help manipulate numbers.
+                Functions like percentage(), floor() and round() to name a few.
+
             </p>
 
-            <p>
-                <h3>JSON is Like XML Because</h3>
-                Both JSON and XML are "self describing" (human readable)
-                Both JSON and XML are hierarchical (values within values)
-                Both JSON and XML can be parsed and used by lots of programming languages
-                Both JSON and XML can be fetched with an XMLHttpRequest
-            </p>
-
-            <p>
-                <h3>JSON is Unlike XML Because</h3>
-                JSON doesn't use end tag
-                JSON is shorter
-                JSON is quicker to read and write
-                JSON can use arrays
-                The biggest difference is:
-                XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
-            </p>
-
-            <p>
-                <h3>Why JSON is Better Than XML</h3>
-                XML is much more difficult to parse than JSON.
-                JSON is parsed into a ready-to-use JavaScript object.
-                For AJAX applications, JSON is faster and easier than XML:
-                Using XML
-                Fetch an XML document
-                Use the XML DOM to loop through the document
-                Extract values and store in variables
-                Using JSON
-                Fetch a JSON string
-                JSON.Parse the JSON string
-            </p>
             ]]>
         </text>
         <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
         <textEncode>JSON to XML</textEncode>
         <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
         <textDecode>JSON to HTML</textDecode>
+
     </page>
 </pages>

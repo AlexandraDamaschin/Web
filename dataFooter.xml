@@ -35,7 +35,7 @@
     <!--SASS-->
     <page>
         <prev>Previous</prev>
-        <hrefPrev>/Practica/PageSASS.php</hrefPrev>
+        <hrefPrev>/Practica/PageCSS.php</hrefPrev>
         <next>Next</next>
         <hrefNext>/Practica/PageHTML.php</hrefNext>
     </page>
