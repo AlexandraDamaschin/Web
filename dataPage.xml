@@ -38,7 +38,7 @@
             <h3>What are the tags up to?</h3>
                 The tags are what separate normal text from HTML code. You might know them as the words between the angle-brackets. Different tags will perform different functions. The tags themselves don’t appear when you view your page through a browser, but their effects do.
                 If you want to see a list of all tags click here. In our blog, we used some of it.
-                 <img src="/Practica/img/tags.png" width=100%/>
+                 <img src="/Practica/img/htmltag.png" width=100%/>
             </p>
 
             <p>
