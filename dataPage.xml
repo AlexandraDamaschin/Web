@@ -409,26 +409,16 @@ Possible values are none, capitalize, uppercase, lowercase.
 <ul class="tree">
   <li class="treeelement">
       <input type="checkbox" checked="checked" id="c1" />
-      <label class="tree_label" for="c1">Level 0</label>
+      <label class="tree_label" for="c1">Why Use SASS?</label>
     <ul class="treelist">
       <li class="treeelement">
-        <input type="checkbox" checked="checked" id="c2" />
-        <label for="c2" class="tree_label">Level 1</label>
-        <ul class="treelist">
-          <li class="treeelement"><span class="tree_label">Level 2</span></li>
-          <li class="treeelement"><span class="tree_label">Level 2</span></li>
-        </ul>
+         <label for="c2" >•  Fully CSS-compatible<br />•  Language extensions such as variables, nesting, and mixins<br />•  Many useful functions for manipulating colors and other values<br />•  Well-formatted, customizable output</label>
       </li>
-      <li class="treeelement">
-        <input type="checkbox" id="c3" />
-        <label for="c3" class="tree_label">Looong level 1 <br/>label text <br/>with line-breaks</label>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
         <ul class="treelist">
-          <li class="treeelement"><span class="tree_label">Level 2</span></li>
           <li class="treeelement">
-            <input type="checkbox" id="c4" />
-            <label for="c4" class="tree_label"><span class="tree_custom">Specified tree item view</span></label>
             <ul class="treelist">
-              <li class="treeelement"><span class="tree_label">Level 3</span></li>
             </ul>
           </li>
         </ul>
@@ -438,53 +428,11 @@ Possible values are none, capitalize, uppercase, lowercase.
 
 
   <li class="treeelement">
-    <input type="checkbox" id="c5" />
-    <label class="tree_label" for="c5">Level 0</label>
+      <input type="checkbox" checked="checked" id="c3" />
+      <label class="tree_label" for="c3">SASS Syntax</label>
     <ul class="treelist">
       <li class="treeelement">
-        <input type="checkbox" id="c6" />
-        <label for="c6" class="tree_label">Level 1</label>
-        <ul class="treelist">
-          <li class="treeelement"><span class="tree_label">Level 2</span></li>
-        </ul>
-      </li>
-      <li class="treeelement">
-        <input type="checkbox" id="c7" />
-        <label for="c7" class="tree_label">Level 1</label>
-        <ul class="treelist">
-          <li class="treeelement"><span class="tree_label">Level 2</span></li>
-          <li class="treeelement">
-            <input type="checkbox" id="c8" />
-            <label for="c8" class="tree_label">Level 2</label>
-            <ul class="treelist">
-              <li class="treeelement"><span class="tree_label">Level 3</span></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-
-
-
-
-
-
-            <p>
-                <h3>Why use SASS</h3>
-•  Fully CSS-compatible
-   <br />
-•  Language extensions such as variables, nesting, and mixins
-   <br />
-•  Many useful functions for manipulating colors and other values
-   <br />
-•  Well-formatted, customizable output
-            </p>
-            <p>
-                <h3>SASS Syntax</h3>
-               Sass includes two syntax options:
+         <label for="c4" > Sass includes two syntax options:
                <br />
 •	SCSS (Sassy CSS):
 <br />
@@ -493,68 +441,187 @@ Uses the ".scss" file extension and is fully compliant with CSS syntax;
 •	Indented (simply called 'Sass'):
 <br />
 Uses ".sass" file extension and indentation rather than brackets; it is not fully compliant with CSS syntax, but it's quicker to write;
-Note that files can be converted from one syntax to the other using the sass-convert command.
+Note that files can be converted from one syntax to the other using the sass-convert command.</label>
 
-            </p>
-            <p>
-                <h3>Variables</h3>
-               Just like other programming languages, Sass allows the use of variables that can store information you can use throughout your style sheet.
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li class="treeelement">
+      <input type="checkbox" checked="checked" id="c5" />
+      <label class="tree_label" for="c5">Variables</label>
+    <ul class="treelist">
+      <li class="treeelement">
+         <label for="c6" >  Just like other programming languages, Sass allows the use of variables that can store information you can use throughout your style sheet.
                For example, you can store a colour value in a variable at the top of the file, and then use this variable when setting the colour of your elements.
-               This enables you to quickly change your colours without having to modify each line separately.
-            </p>
-            <p>
-                <h3>Nesting</h3>
-                Nesting is a double-edged sword.
+               This enables you to quickly change your colours without having to modify each line separately.</label>
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+<li class="treeelement">
+      <input type="checkbox" checked="checked" id="c7" />
+      <label class="tree_label" for="c7">Nesting</label>
+    <ul class="treelist">
+      <li class="treeelement">
+         <label for="c8" >  Nesting is a double-edged sword.
                 While it provides an excellent method for reducing the amount of code you need to write, it can also lead to over-qualified CSS if not executed carefully.
                 The idea is to nest your CSS selectors in such a way as to mimic your HTML hierarchy.
-                The following shows a basic navigation style that uses nesting:
+                The following shows a basic navigation style that uses nesting:</label>
 
-            </p>
-            <p>
-                <h3>Partials</h3>
-               Partials are smaller Sass files that can be imported (see next section) into other Sass files.
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li class="treeelement">
+      <input type="checkbox" checked="checked" id="c9" />
+      <label class="tree_label" for="c9">Partials</label>
+    <ul class="treelist">
+      <li class="treeelement">
+         <label for="c10" > Partials are smaller Sass files that can be imported (see next section) into other Sass files.
                Think of partials as code snippets.
                With these code snippets, your CSS can now be modular and easier to maintain.
-               A partial is designated as such by naming it with a leading underscore: "_partial.scss".
-            </p>
-             <p>
-                <h3>Import</h3>
-               Used with Partials (see previous section), the @import directive allows you to import your partial files into the current file, to build one single CSS file.
-               Be mindful of how many imports you're using as an HTTP request will be generated for each one.
-            </p>
-             <p>
-                <h3>Mixins</h3>
-               One of the advantages of using preprocessors is their ability to take complex, long-winded code and simplify it. This is where mixins come in handy!
+               A partial is designated as such by naming it with a leading underscore: "_partial.scss".</label>
+
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li class="treeelement">
+      <input type="checkbox" checked="checked" id="c11" />
+      <label class="tree_label" for="c11">Import</label>
+    <ul class="treelist">
+      <li class="treeelement">
+         <label for="c12" >  Used with Partials (see previous section), the @import directive allows you to import your partial files into the current file, to build one single CSS file.
+               Be mindful of how many imports you're using as an HTTP request will be generated for each one.</label>
+
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+  <li class="treeelement">
+      <input type="checkbox" checked="checked" id="c13" />
+      <label class="tree_label" for="c13">Mixins</label>
+    <ul class="treelist">
+      <li class="treeelement">
+         <label for="c14" >  One of the advantages of using preprocessors is their ability to take complex, long-winded code and simplify it. This is where mixins come in handy!
                For example, if you need to include the vendor prefixes, you can use a mixin instead.
-               Take a look at this example for border-radius:
+               Take a look at this example for border-radius:</label>
 
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 
-            </p>
-             <p>
-                <h3>Extend/Inheritance</h3>
-                The @extend directive has been called one of Sass' most powerful features.
+   <li class="treeelement">
+      <input type="checkbox" checked="checked" id="c15" />
+      <label class="tree_label" for="c15">Extend/Inheritance</label>
+    <ul class="treelist">
+      <li class="treeelement">
+         <label for="c16" >   The @extend directive has been called one of Sass' most powerful features.
                 After seeing it in action, it's clear why.
                 The idea is that with this directive you won't have to include multiple class names on your HTML elements and can keep your code DRY.
                 Your selectors can inherit the styles of other selectors, and then be easily extended when required.
-                Now that's powerful.
+                Now that's powerful.</label>
 
-            </p>
-             <p>
-                <h3>Operators</h3>
-                Having the ability to perform calculations in your CSS allows you to do more, like convert pixel values into percentages.
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+ <li class="treeelement">
+      <input type="checkbox" checked="checked" id="c17" />
+      <label class="tree_label" for="c17">Operators</label>
+    <ul class="treelist">
+      <li class="treeelement">
+         <label for="c18" >   Having the ability to perform calculations in your CSS allows you to do more, like convert pixel values into percentages.
                 You'll have access to standard maths functions like addition, subtraction, multiplication and division.
                 Of course, these functions can be combined to create complex calculations.
                 In addition, Sass includes a few built-in functions to help manipulate numbers.
-                Functions like percentage(), floor() and round() to name a few.
+                Functions like percentage(), floor() and round() to name a few.</label>
 
-            </p>
+      </li>
+       <li class="treeelement">
+        <input type="checkbox" id="c" />
+        <ul class="treelist">
+          <li class="treeelement">
+            <ul class="treelist">
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+
+</ul>
 
             ]]>
         </text>
-        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
-        <textEncode>JSON to XML</textEncode>
-        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
-        <textDecode>JSON to HTML</textDecode>
+        <buttonEncode>https://www.sassmeister.com/</buttonEncode>
+        <textEncode>SASS to CSS</textEncode>
+        <buttonDecode>http://css2sass.herokuapp.com/</buttonDecode>
+        <textDecode>CSS to SASS</textDecode>
 
     </page>
 </pages>
