@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <body class="w3-light-grey">
 
 <div class="w3-content">
@@ -44,7 +45,6 @@
                         html = html.replace('{$imgAlt}', page.getElementsByTagName("imgAlt")[0].childNodes[0].nodeValue);
                         html = html.replace('{$title}', page.getElementsByTagName("title")[0].childNodes[0].nodeValue);
                         html = html.replace('{$stands}', page.getElementsByTagName("stands")[0].childNodes[0].nodeValue);
-                        html = html.replace('{$date}', page.getElementsByTagName("date")[0].childNodes[0].nodeValue);
                         html = html.replace('{$description}', page.getElementsByTagName("description")[0].childNodes[0].wholeText);
                         html = html.replace('{$text}', page.getElementsByTagName("text")[0].childNodes[0].wholeText);
                         html = html.replace('{$buttonEncode}', page.getElementsByTagName("buttonEncode")[0].childNodes[0].nodeValue);
@@ -62,7 +62,8 @@
     </div>
 
     <!-- END GRID -->
-</div><br>
+</div>
+<br>
 
 <!-- END w3-content -->
 
@@ -88,9 +89,9 @@
             var html = template;
             var page = pages[i];
             html = html.replace('{$hrefPrev}', page.getElementsByTagName("hrefPrev")[0].childNodes[0].nodeValue);
-            html = html.replace('{$prev}',  page.getElementsByTagName("prev")[0].childNodes[0].nodeValue);
-            html = html.replace('{$hrefNext}',  page.getElementsByTagName("hrefNext")[0].childNodes[0].nodeValue);
-            html = html.replace('{$next}',  page.getElementsByTagName("next")[0].childNodes[0].nodeValue);
+            html = html.replace('{$prev}', page.getElementsByTagName("prev")[0].childNodes[0].nodeValue);
+            html = html.replace('{$hrefNext}', page.getElementsByTagName("hrefNext")[0].childNodes[0].nodeValue);
+            html = html.replace('{$next}', page.getElementsByTagName("next")[0].childNodes[0].nodeValue);
             $(".footer-entries").append(html);
         }
     </script>

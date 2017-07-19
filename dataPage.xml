@@ -6,7 +6,6 @@
         <imgAlt>htmlLarge</imgAlt>
         <title>HTML</title>
         <stands>Hyper Text Markup Language</stands>
-        <date>July 3, 2017</date>
         <description>
             <![CDATA[
              <h3>What is HTML?</h3>
@@ -17,12 +16,12 @@
                 — there is no set order to do things in.
             Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
             HTML is a Language, as it has code-words and syntax like any other language.
+            <img src="/Practica/img/html.png"  width=100%/>
             </p>
             ]]>
         </description>
         <text>
             <![CDATA[
-            <img src="/Practica/img/html.png"/>
             <p>
                 <h3>What is html5?</h3>
                 HTML5 is supposed to be what HTML should have been in the first place.
@@ -34,14 +33,12 @@
             HTML consists of a series of short codes typed into a text-file by the site author
             — these are the tags. The text is then saved as a html file, and viewed through a browser, like Chrome or Internet Explorer. This browser reads the file and translates the text into a visible form, hopefully rendering the page as the author had intended.
             </p>
-
+                <img src="/Practica/img/htmltags.jpg" width=100%/>
             <p>
             <h3>What are the tags up to?</h3>
-                <img src="/Practica/img/htmltags.jpg" width=100%/>
-                <br />
-                <br />
                 The tags are what separate normal text from HTML code. You might know them as the words between the angle-brackets. Different tags will perform different functions. The tags themselves don’t appear when you view your page through a browser, but their effects do.
                 If you want to see a list of all tags click here. In our blog, we used some of it.
+                 <img src="/Practica/img/tags.png" width=100%/>
             </p>
 
             <p>
@@ -61,6 +58,7 @@
                 Of course, but since making websites became more popular and needs increased many other supporting languages have been created to allow new stuff to happen, plus HTML is modified every few years to make way for improvements.
                 Cascading Stylesheets are used to control how your pages are presented, and make pages more accessible. Basic special effects and interaction is provided by JavaScript, which adds a lot of power to basic HTML. Most of this advanced stuff is for later down the road, but when using all of these technologies together, you have a lot of power at your disposal.
             </p>
+            <img src="/Practica/img/diffhtml.png"  width=100%/>
             ]]>
         </text>
         <buttonEncode>https://codebeautify.org/html-encode-string</buttonEncode>
@@ -75,7 +73,6 @@
         <imgAlt>xmlLargeImage</imgAlt>
         <title>XML</title>
         <stands>eXtensible Markup Language</stands>
-        <date>July 3, 2017</date>
         <description>
             <![CDATA[
             XML is a markup language much like HTML
@@ -93,7 +90,10 @@
                 It is important (for all types of software developers!) to have a good understanding of XML.
             </p>
 
+            <img src="/Practica/img/useXml.png"/>
+            <img src="/Practica/img/xml.png" />
             <p>
+            </br>
                  <h3>XML Does Not DO Anything</h3>
                 Maybe it is a little hard to understand, but XML does not DO anything.
                 The XML above is quite self-descriptive:
@@ -109,7 +109,8 @@
                 XML and HTML were designed with different goals:
                 XML was designed to carry data - with focus on what data is
                 HTML was designed to display data - with focus on how data looks
-                XML tags are not predefined like HTML tags are
+                XML tags are not predefined like HTML tags are.
+                 <img src="/Practica/img/XMLvsHTML.png" width=100%/>
             </p>
 
             <p>
@@ -132,7 +133,7 @@
                 With XML, data can be available to all kinds of "reading machines" like people, computers, voice machines, news feeds, etc.
             </p>
 
-            <img src="/Practica/img/xmltreee.jpg"/>
+            <img src="/Practica/img/xmltreee.jpg" width=100%/>
 
             <p>
                 <h3>XML Tree Structure</h3>
@@ -148,7 +149,7 @@
         </text>
         <buttonEncode>https://codebeautify.org/xmltojson</buttonEncode>
         <textEncode>XML to JSON</textEncode>
-        <buttonDecode>https://codebeautify.org/xmltojson</buttonDecode>
+        <buttonDecode>https://codebeautify.org/xml-to-html-converter</buttonDecode>
         <textDecode>XML to HTML</textDecode>
     </page>
 
@@ -158,7 +159,6 @@
         <imgAlt>jsonLargeImage</imgAlt>
         <title>JSON</title>
         <stands>JavaScript Object Notation</stands>
-        <date>July 3, 2017</date>
         <description>
             <![CDATA[
             JSON is a syntax for storing and exchanging data.
@@ -186,6 +186,7 @@
                 Square brackets hold arrays
             </p>
 
+                <img src="/Practica/img/jsonformater.png" width=50%/>
             <p>
                 <h3>JSON is Like XML Because</h3>
                 Both JSON and XML are "self describing" (human readable)
@@ -203,7 +204,7 @@
                 The biggest difference is:
                 XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function.
             </p>
-
+                 <img src="/Practica/img/xmlVSjson.png" width=100%/>
             <p>
                 <h3>Why JSON is Better Than XML</h3>
                 XML is much more difficult to parse than JSON.
@@ -231,7 +232,6 @@
         <imgAlt>cssLargeImage</imgAlt>
         <title>CSS</title>
         <stands> Cascading Style Sheets</stands>
-        <date>July 3, 2017</date>
         <description>
             <![CDATA[
             CSS is a simple design language intended to simplify the process of making web pages presentable.
@@ -249,16 +249,16 @@
 
             <p>
                 <h3>Advantages of CSS</h3>
-•	CSS saves time − You can reuse same sheet in multiple HTML pages.<br />
-•	Pages load faster − write one CSS rule of a tag and apply it to all the occurrences of that tag.<br />
-•	Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.<br />
-•	Superior styles to HTML − you can give a far better look to your HTML page in comparison to HTML attributes.<br />
-•	Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device.<br />
-•	Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS.
+CSS saves time − You can reuse same sheet in multiple HTML pages.<br />
+Pages load faster − write one CSS rule of a tag and apply it to all the occurrences of that tag.<br />
+Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.<br />
+Superior styles to HTML − you can give a far better look to your HTML page in comparison to HTML attributes.<br />
+Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device.<br />
+Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS.
 So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.<br />
-•	Offline Browsing − CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.
+Offline Browsing − CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.
 The cache also ensures faster loading and better overall performance of the website.<br />
-•	Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.
+Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.
 
             </p>
 
@@ -272,9 +272,9 @@ The cache also ensures faster loading and better overall performance of the webs
             <p>
                 <h3>CSS Syntax</h3>
           A style rule is made of three parts :<br />
-•	Selector;<br />
-•	Property;<br />
-•	Value.<br />
+Selector;<br />
+Property;<br />
+Value.<br />
 
 
             </p>
@@ -299,9 +299,9 @@ This attribute is a required.
             </p>
               <p>
                 <h3>CSS Rules Overriding</h3>
-•	Any inline style sheet takes highest priority.So, it will override any rule defined in <style>...</style> tags or rules defined in any external style sheet file.<br />
-•	Any rule defined in <style>...</style> tags will override rules defined in any external style sheet file.<br />
-•	Any rule defined in external style sheet file takes lowest priority, and rules defined in this file will be applied only when above two rules are not applicable.
+               	Any inline style sheet takes highest priority.So, it will override any rule defined in <style>...</style> tags or rules defined in any external style sheet file.<br />
+	Any rule defined in <style>...</style> tags will override rules defined in any external style sheet file.<br />
+	Any rule defined in external style sheet file takes lowest priority, and rules defined in this file will be applied only when above two rules are not applicable.
 
 
             </p>
@@ -396,7 +396,6 @@ Possible values are none, capitalize, uppercase, lowercase.
         <imgAlt>sassLargeImage</imgAlt>
         <title>SASS</title>
         <stands>Syntactically Awesome StyleSheets</stands>
-        <date>July 3, 2017</date>
         <description>
             <![CDATA[
             Sass is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more.

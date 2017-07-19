@@ -23,7 +23,7 @@
             </p>
             ]]></content>
     </page>
-        <!--XML -->
+    <!--XML -->
     <page>
         <title>XML</title>
         <description>eXtensible Markup Language</description>
@@ -45,7 +45,7 @@
     <!-- second page-->
     <page>  <!--JSON -->
         <title>JSON</title>
-        <description>JavaScript Object Notation </description>
+        <description>JavaScript Object Notation</description>
         <date>July 10, 2017</date>
         <href>/Practica/PageJSON.php</href>
         <link>READ MORE »</link>
@@ -63,24 +63,33 @@
 
     <page>  <!--CSS -->
         <title>CSS</title>
-        <description>Cascading Style Sheets </description>
+        <description>Cascading Style Sheets</description>
         <date>July 15, 2017</date>
         <href>/Practica/PageCSS.php</href>
         <link>READ MORE »</link>
         <imgSrc>/Practica/img/css-large.jpg</imgSrc>
         <imgAlt>cssLargeImage</imgAlt>
-        <content>Continut important</content>
+        <content>
+            <![CDATA[
+            CSS is a simple design language intended to simplify the process of making web pages presentable.
+            ]]>
+        </content>
     </page>
 
     <page>  <!--SASS -->
         <title>SASS</title>
-        <description> Syntactically Awesome StyleSheets </description>
+        <description>Syntactically Awesome StyleSheets</description>
         <date>July 20, 2017</date>
         <href>/Practica/PageSASS.php</href>
         <link>READ MORE »</link>
         <imgSrc>/Practica/img/sass-large.png</imgSrc>
         <imgAlt>sassLargeImage</imgAlt>
-        <content>Continut important</content>
+        <content>
+            <![CDATA[
+         Sass is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more.
+            It also helps to keep things organised and allows you to create style sheets faster.
+            ]]>
+        </content>
     </page>
 
 </blog>
