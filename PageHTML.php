@@ -31,6 +31,7 @@
             $pageData = ob_get_clean();
             ?>
             <script>
+//                XML STRUCTURE
                 $(function () {
                     var xml = <?php echo json_encode($pageData);?>;
                     var template = <?php echo(json_encode($pageTemplateEntry));?>;

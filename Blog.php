@@ -143,6 +143,7 @@
 <!--JSON CODE-->
                 <script>
                     var list =
+//                        json object
                         [   {name: 'HTML', href: '/Practica/PageHTML.php', img:'/Practica/img/html-small.png', alt:'html '},
                             {name: 'XML', href: '/Practica/PageXML.php',img:'/Practica/img/xml-small.jpg', alt:'xml '},
                             {name: 'JSON', href: '/Practica/PageJSON.php',img:'/Practica/img/json-small.png', alt:'json '},
