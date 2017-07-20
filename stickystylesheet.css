@@ -1,12 +1,13 @@
 #listasticky, .elementsticky{
     list-style:none;
+
 }
 #listasticky{
     overflow:hidden;
     padding:4em;
 }
 #listasticky .elementsticky a{
-    /*text-decoration:none;*/
+    text-decoration:none;
     /*color:#000;*/
     /*background:#ffc;*/
     display:block;
@@ -19,20 +20,19 @@
     -moz-transition:-moz-transform .15s linear;
     -o-transition:-o-transform .15s linear;
     -webkit-transition:-webkit-transform .15s linear;
+
 }
 #listasticky .elementsticky{
     margin: 0.5em;
     float:left;
+
 }
-/*ul li h20{*/
-/*font-size:140%;*/
-/*font-weight:bold;*/
-/*padding-bottom:10px;*/
-/*}*/
-/*ul li p{*/
-/*!*font-family:"Reenie Beanie",arial,sans-serif;*!*/
-/*font-size:180%;*/
-/*}*/
+#listasticky .elementsticky {
+
+    font-family: "Raleway", sans-serif;
+    style: "max-width:1400px";
+}
+
 #listasticky .elementsticky a{
     -webkit-transform: rotate(-6deg);
     -o-transform: rotate(-6deg);
@@ -95,9 +95,12 @@
     -o-transform: scale(1.25);
     position:relative;
     z-index:5;
+
 }
-.aliniere h20{text-align:left;}  /* asta functioneaza? exista comanda de aliniere? nu era allign aici?*/
-.elementsticky{display:inline;padding-right:1em;}
+.aliniere h20{text-align:left;  }  /* asta functioneaza? exista comanda de aliniere? nu era allign aici?*/
+.elementsticky{display:inline;padding-right:1em ;}
 .aliniere .elementsticky a{color:#fff;}
+
+
 
 

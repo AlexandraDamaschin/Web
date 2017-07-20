@@ -227,86 +227,81 @@
     </page>
 
     <!-- CSS -->
+    <!-- CSS -->
     <page>
         <imgSrc>/Practica/img/css-large.jpg</imgSrc>
         <imgAlt>cssLargeImage</imgAlt>
         <title>CSS</title>
         <stands> Cascading Style Sheets</stands>
+        <date> </date>
         <description>
             <![CDATA[
+            July 15,2017<br /><br />
             CSS is a simple design language intended to simplify the process of making web pages presentable.
             ]]>
         </description>
         <text>
             <![CDATA[
-            <p>
+            <p class="stil2">
                 <h3>Why use CSS?</h3>
                 CSS handles the look of a web page.
                 Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects.
-                CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document
+                CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document.
 
             </p>
 
-            <p>
+            <p class="stil2">
                 <h3>Advantages of CSS</h3>
-CSS saves time − You can reuse same sheet in multiple HTML pages.<br />
-Pages load faster − write one CSS rule of a tag and apply it to all the occurrences of that tag.<br />
-Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.<br />
-Superior styles to HTML − you can give a far better look to your HTML page in comparison to HTML attributes.<br />
-Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device.<br />
-Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS.
+•	CSS saves time − You can reuse same sheet in multiple HTML pages.<br />
+•	Pages load faster − write one CSS rule of a tag and apply it to all the occurrences of that tag.<br />
+•	Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.<br />
+•	Superior styles to HTML − you can give a far better look to your HTML page in comparison to HTML attributes.<br />
+•	Multiple Device Compatibility − Style sheets allow content to be optimized for more than one type of device.<br />
+•	Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS.
 So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.<br />
-Offline Browsing − CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.
+•	Offline Browsing − CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.
 The cache also ensures faster loading and better overall performance of the website.<br />
-Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.
+•	Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.
 
             </p>
 
-            <p>
+            <p class="stil2">
                 <h3>CSS Version</h3>
                CSS3 was became a W3C recommendation in June 1999 and builds on older versions CSS.
                 It is the actual version.
 
             </p>
 
-            <p>
+            <p class="stil2">
                 <h3>CSS Syntax</h3>
           A style rule is made of three parts :<br />
-Selector;<br />
-Property;<br />
-Value.<br />
+•	Selector;<br />
+•	Property;<br />
+•	Value.<br /><br />
 
-
+<img src="img/wife.jpg" alt="wife" style="display: block;margin: auto;width: 40%;">
             </p>
 
-            <p>
+            <p class="stil2">
                 <h3>CSS - Inclusion</h3>
-              There are four ways to associate styles with your HTML document.
-External CSS - The <link> Element
+There are four ways to associate styles with your HTML document. What we used?
+<br />
+•	External CSS - The <link> Element:
+<br />
 The <link> element can be used to include an external stylesheet file in your HTML document.
 An external style sheet is a separate text file with ".css" extension were you define all the Style rules.
-The generic syntax of including external CSS file
-
-Attributes
-Attributes associated with style elements are −
-Attribute	Value	Description
-type	text/css	Specifies the style sheet language as a content-type (MIME type).
-This attribute is required.
-href	URL	Specifies the style sheet file having Style rules.
-This attribute is a required.
-
-
-            </p>
-              <p>
+The generic syntax of including external CSS file : &ltlink REL="STYLESHEET" TYPE="text/css" HREF="[Style sheet URL]"&gt.
+             </p>
+              <p class="stil2">
                 <h3>CSS Rules Overriding</h3>
-               	Any inline style sheet takes highest priority.So, it will override any rule defined in <style>...</style> tags or rules defined in any external style sheet file.<br />
-	Any rule defined in <style>...</style> tags will override rules defined in any external style sheet file.<br />
-	Any rule defined in external style sheet file takes lowest priority, and rules defined in this file will be applied only when above two rules are not applicable.
+•	Any inline style sheet takes highest priority.So, it will override any rule defined in <style>...</style> tags or rules defined in any external style sheet file.<br />
+•	Any rule defined in <style>...</style> tags will override rules defined in any external style sheet file.<br />
+•	Any rule defined in external style sheet file takes lowest priority, and rules defined in this file will be applied only when above two rules are not applicable.
 
 
             </p>
 
-              <p>
+              <p class="stil2">
                 <h3>CSS Comments</h3>
          Many times, you may need to put additional comments in your style sheet blocks.
          So, it is very easy to comment any part in style sheet.
@@ -314,90 +309,104 @@ This attribute is a required.
 
             </p>
 
-             <p>
+             <p class="stil2">
                 <h3>CSS - Colors</h3>
-         CSS uses color values to specify a color.
-         You can specify your color values in various formats.
-Format	Syntax	Example
-Hex Code	#RRGGBB	p{color:#FF0000;}
-Short Hex Code	#RGB	p{color:#6A7;}
-RGB %	rgb(rrr%,ggg%,bbb%)	p{color:rgb(50%,50%,50%);}
-RGB Absolute	rgb(rrr,ggg,bbb)	p{color:rgb(0,0,255);}
-keyword	aqua, black, etc.	p{color:teal;}
 
-            </p>
 
-             <p>
+
+
+
+
+
+<!-- sticky notes -->
+            <ul id="listasticky">
+                <li class="blueM elementsticky"><a href=""><h20>CSS uses color values to specify a color.</h20></a></li>
+                <li class="yellowM elementsticky"><a href="" ><h20> You can specify your color values in various formats.</h20></a></li>
+                <li class="greenM elementsticky"><a href="" ><h20>Hex Code<br />#RRGGBB	<br />p{<br />color:#FF0000;<br />}</h20></a></li>
+                <li class="pinkM elementsticky"><a href="" ><h20>Short Hex Code<br />	#RGB	<br/>p{<br />color:#6A7;<br />}</h20></a></li>
+                <li class="greenM elementsticky"><a href="" ><h20>RGB %	<br />rgb(rr%,gg%,<br />bb%)<br />p{color:rgb<br />(50%,50%,50%);<br />}</h20></a></li>
+                <li class="purpleM elementsticky"><a href="" ><h20>RGB Absolute<br />rgb(rrr,ggg,bbb)<br />	p{color:<br />rgb(0,0,255);<br />}</h20></a></li>
+                <li class="blueM elementsticky"><a href="" ><h20>#titanic {</h20><p class="aliniere">float : none;<br /> }</p></a></li>
+                <li class="orangeM elementsticky"><a href="" ><h20>.ninja {</h20><p class="aliniere">color : black;<br /> }</p></a></li>
+            </ul>
+<!-- end sticky notes -->
+</p>
+
+ <p class="stil2">
                 <h3>CSS - Fonts</h3>
-        Font properties of an element:<br />
+Font properties of an element:<br />
 •	The font-family property is used to change the face of a font.<br />
 •	The font-style property is used to make a font italic or oblique.<br />
 •	The font-variant property is used to create a small-caps effect.<br />
 •	The font-weight property is used to increase or decrease how bold or light a font appears.<br />
 •	The font-size property is used to increase or decrease the size of a font.<br />
 •	The font property is used as shorthand to specify a number of other font properties.<br />
-Set the Font Family
+<br />
+You can also :
+<br />
 
-Set the Font Style
-Possible values are normal, italic and oblique.
+<div class="wrapper">
 
-CSS - Text
-how to manipulate text using CSS properties. You can set following text properties of an element −
-Set the Text Color
+<a href="#example" class="openModal">Set the Text Font</a>
+<a href="#example2" class="openModal">Set the Space between Characters</a>
+<a href="#example3" class="openModal">Set the Text Alignment</a>
+<a href="#example4" class="openModal">Set the Text Cases</a>
+<aside id="example" class="modal">
+    <div>
+        <h2>Set the text Font</h2>
+        <p>.body,h1,h2,h3,h4,h5,.stil2{<br /><br />font-family: "Raleway", sans-serif;<br /><br />}</p>
+        <a href="#close" title="Close">Close</a>
+    </div>
+</aside>
+<aside id="example2" class="modal">
+    <div>
+        <h2>Set the Space between Characters</h2>
+        <p>.space{<br /><br />letter-spacing: 0.5px;<br /><br />}</p>
+        <a href="#close" title="Close">Close</a>
+    </div>
+</aside>
+<aside id="example3" class="modal">
+    <div>
+        <h2>Set the Text Alignment</h2>
+        <p>.modal {<br /><br />text-align: center;<br /><br />}</p>
+        <a href="#close" title="Close">Close</a>
+    </div>
+</aside>
+<aside id="example4" class="modal">
+    <div>
+        <h2>Set the Text Cases</h2>
+        <p>p.normal {<br />font-style: normal;<br />}<br /><br />p.italic {<br />font-style: italic;<br />}<br /><br />p.oblique {<br />font-style: oblique;<br />}</p>
+        <a href="#close" title="Close">Close</a>
+    </div>
+</aside>
 
-Set the Space between Characters
+</div>
+</p>
 
-Set the Text Alignment
-
-Set the Text Cases
-Possible values are none, capitalize, uppercase, lowercase.
-
-
-
+            <p class="stil2>
+            <h3> And play with Animation...like we did.</h3>
             </p>
 
-
-
-<!-- sticky notes -->
-            <ul id="listasticky">
-                <li class="blueM elementsticky"><a href=""><h20>#titanic {</h20><p class="aliniere">float : none;<br><br> }</p></a></li>
-                <li class="yellowM elementsticky"><a href="" ><h20>#wife {</h20><p class="aliniere">right: 100%; <br>margin: 0;<br><br> }</p></a></li>
-                <li class="greenM elementsticky"><a href="" ><h20>#tower-of-pisa {</h20><p class="aliniere">font-style:italic;<br> }</p></a></li>
-                <li class="pinkM elementsticky"><a href="" ><h20>.ninja {</h20><p class="aliniere">color:black;<br>visibility:hidden;<br>animation-duration:0.00005s; }</p></a></li>
-                <li class="greenM elementsticky"><a href="" ><h20>Title #5</h20><p class="aliniere">Text Content #5</p></a></li>
-                <li class="purpleM elementsticky"><a href="" ><h20>Title #8</h20><p class="aliniere">Text Content #8</p></a></li>
-                <li class="blueM elementsticky"><a href="" ><h20>Title #5</h20><p class="aliniere">Text Content #5</p></a></li>
-                <li class="orangeM elementsticky"><a href="" ><h20>Title #8</h20><p class="aliniere">Text Content #8</p></a></li>
-            </ul>
-<!-- end sticky notes -->
-
-            <p>
-                <h3>Animation</h3>
-
-                bla bla
-            </p>
-
-            <p>
-                <h3>AnotherAnimation</h3>
-             bla bla
-            </p>
-
+</p>
             ]]>
-        </text>
-        <buttonEncode>https://codebeautify.org/jsontoxml</buttonEncode>
-        <textEncode>JSON to XML</textEncode>
-        <buttonDecode>https://codebeautify.org/json-to-html-converter</buttonDecode>
-        <textDecode>JSON to HTML</textDecode>
-    </page>
 
+        </text>
+        <buttonEncode>http://css2sass.herokuapp.com/</buttonEncode>
+        <textEncode>CSS to SASS</textEncode>
+        <buttonDecode>https://www.sassmeister.com/</buttonDecode>
+        <textDecode>SASS to CSS</textDecode>
+    </page>
     <!-- SASS -->
     <page>
         <imgSrc>/Practica/img/sass-large.png</imgSrc>
         <imgAlt>sassLargeImage</imgAlt>
         <title>SASS</title>
         <stands>Syntactically Awesome StyleSheets</stands>
+        <date> </date>
         <description>
             <![CDATA[
+            July 20, 2017
+            <br /> <br />
             Sass is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more.
             It also helps to keep things organised and allows you to create style sheets faster.
             ]]>
@@ -463,6 +472,8 @@ Note that files can be converted from one syntax to the other using the sass-con
          <label for="c6" >  Just like other programming languages, Sass allows the use of variables that can store information you can use throughout your style sheet.
                For example, you can store a colour value in a variable at the top of the file, and then use this variable when setting the colour of your elements.
                This enables you to quickly change your colours without having to modify each line separately.</label>
+               <br />
+               <img src="img/sass-css1.png" alt="bla" style="display: block;margin: auto;width: 100%;">
       </li>
        <li class="treeelement">
         <input type="checkbox" id="c" />
@@ -485,7 +496,8 @@ Note that files can be converted from one syntax to the other using the sass-con
                 While it provides an excellent method for reducing the amount of code you need to write, it can also lead to over-qualified CSS if not executed carefully.
                 The idea is to nest your CSS selectors in such a way as to mimic your HTML hierarchy.
                 The following shows a basic navigation style that uses nesting:</label>
-
+                <br />
+                <img src="img/saaa.png" alt="wife" style="display: block;margin: auto;width: 100%;">
       </li>
        <li class="treeelement">
         <input type="checkbox" id="c" />
@@ -529,7 +541,8 @@ Note that files can be converted from one syntax to the other using the sass-con
       <li class="treeelement">
          <label for="c12" >  Used with Partials (see previous section), the @import directive allows you to import your partial files into the current file, to build one single CSS file.
                Be mindful of how many imports you're using as an HTTP request will be generated for each one.</label>
-
+               <br />
+               <img src="img/sass-css2.png" alt="wife" style="display: block;margin: auto;width: 100%;">
       </li>
        <li class="treeelement">
         <input type="checkbox" id="c" />
@@ -550,8 +563,13 @@ Note that files can be converted from one syntax to the other using the sass-con
       <li class="treeelement">
          <label for="c14" >  One of the advantages of using preprocessors is their ability to take complex, long-winded code and simplify it. This is where mixins come in handy!
                For example, if you need to include the vendor prefixes, you can use a mixin instead.
-               Take a look at this example for border-radius:</label>
+               Take a look at this example for border-radius:
+<img src="img/sass-css3.png" alt="wife" style="display: block;margin: auto;width: 50%;">
+Notice the @mixin directive at the top. It has been given the name border-radius and uses the variable $radius as its parameter. This variable is used to set the radius value for each element.
+Later, the @include directive is called, along with the mixin name (border-radius) and a parameter (10px). Thus .box { @include border-radius(10px); }.
+The following CSS is produced:
 
+<img src="img/sass-css4.png" alt="wife" style="display: block;margin: auto;width: 50%;"></label>
       </li>
        <li class="treeelement">
         <input type="checkbox" id="c" />
@@ -599,7 +617,7 @@ Note that files can be converted from one syntax to the other using the sass-con
                 Of course, these functions can be combined to create complex calculations.
                 In addition, Sass includes a few built-in functions to help manipulate numbers.
                 Functions like percentage(), floor() and round() to name a few.</label>
-
+<img src="img/sass-getting-started.jpg" alt="bla" style="display: block;margin: auto;width: 100%;">
       </li>
        <li class="treeelement">
         <input type="checkbox" id="c" />

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<title>CSS</title>
+<title>Web</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="modal.css">
 <link rel="stylesheet" href="stickystylesheet.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -46,6 +47,7 @@
                         html = html.replace('{$title}', page.getElementsByTagName("title")[0].childNodes[0].nodeValue);
                         html = html.replace('{$stands}', page.getElementsByTagName("stands")[0].childNodes[0].nodeValue);
                         html = html.replace('{$description}', page.getElementsByTagName("description")[0].childNodes[0].wholeText);
+                        html = html.replace('{$date}', page.getElementsByTagName("date")[0].childNodes[0].nodeValue);
                         html = html.replace('{$text}', page.getElementsByTagName("text")[0].childNodes[0].wholeText);
                         html = html.replace('{$buttonEncode}', page.getElementsByTagName("buttonEncode")[0].childNodes[0].nodeValue);
                         html = html.replace('{$textEncode}', page.getElementsByTagName("textEncode")[0].childNodes[0].nodeValue);
